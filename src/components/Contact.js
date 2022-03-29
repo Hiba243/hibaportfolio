@@ -21,11 +21,14 @@ const Contact = () => {
     return <section className="section-contact section-padding" id="contact">
         <div className="section-contact__content">
             {/* <ScrollAnimation animateIn="animate__fadeInLeft" className="animate__animated" animateOnce={true}> */}
-                <p className="text__subheading"><span className="arr-purple">&rarr;</span> Get In Touch</p>
+                <p className="text__heading font-accent text-underline-pink">Get In Touch</p>
             {/* </ScrollAnimation> */}
-            <div className="section-contact__content-email">
-            <p className="text__subheading">
-                Drop me a mail:&nbsp;</p>
+            <div className="contactFlex">
+            <p className="text__subheading-1 contact-align-center">
+                Want to work together?</p>
+            <div>
+            <p className="text__subheading contact-align-center">
+               Drop me an email</p>
                 
                 <CopyToClipboard
                     text={"hibafatima24@gmail.com"}
@@ -40,14 +43,11 @@ const Contact = () => {
                         placement="top"
                         onClose={() => setCopiedText("")}
                     >
-                        <p className="copy-click text__subheading">hibafatima24@gmail.com</p>
+                        <p className="copy-click text__subheading contact-align-center">hibafatima24@gmail.com</p>
                     </LightTooltip>
-                </CopyToClipboard>         
+                </CopyToClipboard>     
+                </div>    
             </div>
-        </div>
-        <div className="section-contact__social text__subheading">
-            <p><a href="#" className="link-effect">LinkedIn</a></p>
-            <p><a href="#" className="link-effect">Github</a></p>
         </div>
     </section>
     

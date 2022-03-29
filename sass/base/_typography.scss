@@ -20,13 +20,19 @@ body {
   }
   &__heading {
     margin-bottom: 3rem;
-    font-size: 2.35rem;
+    font-size: 3.2rem;
+    @include respond(tab-land) {
+      font-size: 1.75rem;
+    }
+  }
+  &__subheading-1 {
+    font-size: 2.8rem;
     @include respond(tab-land) {
       font-size: 1.75rem;
     }
   }
   &__subheading {
-    font-size: 2.35rem;
+    font-size: 2.4rem;
     @include respond(tab-land) {
       font-size: 1.75rem;
     }

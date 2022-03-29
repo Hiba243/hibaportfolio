@@ -112,3 +112,13 @@
   flex-direction: row;
   align-items: center;
 }
+
+.section-footer{
+  padding: 8rem 4rem 4rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.socials{
+  display: flex;
+  column-gap: 2rem;
+}

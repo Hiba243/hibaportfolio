@@ -1,6 +1,7 @@
 .section-contact {
-  border-bottom: 1px solid;
+  padding: 0 4rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   @include respond(tab-port) {
     flex-direction: column;
@@ -26,4 +27,20 @@
       flex-direction: column;
     }
   }
+}
+.text-underline-pink{
+  text-decoration: underline;
+    text-decoration-color: #FFC6FF;
+    text-underline-position: under; 
+    text-underline-offset: 3px;
+    text-decoration-thickness: 3px;
+}
+.contact-align-center{
+  text-align: center;
+}
+.contactFlex{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+  align-items: center;
 }
