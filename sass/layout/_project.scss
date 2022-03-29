@@ -1,0 +1,71 @@
+.section-work {
+  padding: 0;
+  padding-bottom: 1rem;
+  @include respond(phone) {
+    padding-bottom: 1.5rem;
+  }
+  &__heading {
+    padding: 3rem 2rem 0rem 2rem;
+    @include respond(phone) {
+      padding: 3rem 1.5rem 0rem 1.5rem;
+    }
+  }
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  @include respond(phone) {
+    padding: 0 1.5rem;
+  }
+  &__img {
+    background-color: $color-secondary;
+    width: 100%;
+    height: 500px;
+  }
+  &__desc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    @include respond(phone) {
+      flex-direction: column;
+    }
+    &-content {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      color: $color-secondary;
+      @include respond(phone) {
+        width: 100%;
+      }
+      &-h1 {
+        color: $color-secondary;
+      }
+    }
+  }
+  .project:hover {
+    background-color: rgba(143, 109, 245, 0.5);
+  }
+
+  &__link {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    @include respond(phone) {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+}
+hr {
+  margin-bottom: 3rem;
+  background: linear-gradient(to right, #FFC6FF, #BEE1E6,#FFE45E  );
+  height: 10px;
+  border:0;
+}
