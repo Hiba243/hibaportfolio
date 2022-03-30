@@ -1,21 +1,18 @@
-.navbar {
+.navbar-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  @include respond(phone) {
-    padding: 3rem 1.5rem;
-  }
-  // border:1px solid;
-  // border-bottom: none;
 }
 .navbar-padding{
-  padding: 4rem;
+  padding: 4rem 4rem 0 4rem;
+  @include respond(phone) {
+    padding: 3rem;
+  }
 }
 .nav {
-
   &__menu {
     display: flex;
+    column-gap: 2rem;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
@@ -27,9 +24,6 @@
     }
     padding-bottom: 0.4rem;
     color: $color-secondary;
-  }
-  &__item {
-    margin: 0 2rem 0 1rem;
   }
   &__logo {
     font-size: 1.5rem;
@@ -74,8 +68,7 @@
     }
     &__link {
       color: $color-secondary;
-      font-size: 5rem;
-      padding-left: 3rem;
+      font-size: 3rem;
     }
   }
 
@@ -107,18 +100,25 @@
     background-color: $color-secondary;
   }
 }
-.link-flex {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 
 .section-footer{
-  padding: 8rem 4rem 4rem 4rem;
   display: flex;
   justify-content: space-between;
+  @include respond(phone) {
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+}
+.footer-padding{
+  padding: 4rem;
+  @include respond(phone) {
+    padding: 3rem;
+  }
 }
 .socials{
   display: flex;
   column-gap: 2rem;
+  @include respond(phone) {
+    justify-content: space-between;
+  }
 }

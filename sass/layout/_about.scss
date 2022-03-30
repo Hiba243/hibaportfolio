@@ -1,19 +1,17 @@
 .section-about {
   display: flex;
   flex-direction: column;
-  padding: 0 4rem;
+  row-gap: 10rem;
+  justify-content: space-between;
   @include respond(tab-land) {
   gap:3rem;
-  padding: 3rem 2rem ;
   }
   @include respond(phone) {
-    padding: 3rem 1.5rem;
   }
   @include respond(tab-land) {
     flex-direction: column;
   }
   &__about {
-    padding: 3rem 2rem 5rem 2rem;
     // border-right: 1px solid;
     display: flex;
     flex-direction: column;
@@ -22,7 +20,7 @@
       padding: 0;
       border-right: none;
       border-bottom: none;
-      display: inline;
+      row-gap: 3rem;
     }
     @include respond(tab-land) {
       width: 100%;
@@ -33,54 +31,22 @@
       height: 100%;
       justify-content: space-around;
       column-gap: 5rem;
-    }
-  }
-  &__skills {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    @include respond(tab-land) {
-      width: 100%;
-      gap: 2rem;
-    }
-    &-1,
-    &-2 {
-      padding: 3rem 2rem;
-      // border-bottom: 1px solid;
       @include respond(tab-land) {
-        padding: 0;
-        border-bottom: none;
-      }
-    }
-    &-2{
-      border-bottom: none;
-    }
-    &-content {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 6rem;
-      @include respond(tab-land) {
-        width: 100%;
-        justify-content: flex-start;
-        gap: 4rem;
-      }
-      @include respond(phone) {
-        gap: 1rem;
+        flex-direction: column;
+        row-gap: 5rem;
+        justify-content: space-between;
       }
     }
   }
 }
 
 .about-section-heading{
-  margin-top:4rem;
   text-decoration: underline;
   text-decoration-color: #BEE1E6;
   text-underline-position: under; 
   text-underline-offset: 3px;
   text-decoration-thickness: 3px;
   &-1{
-    margin-top:0;
     text-align: center;
   }
 }
@@ -89,8 +55,14 @@
   flex-direction: column;
   row-gap: 4rem;
   width: 50%;
+  @include respond(tab-land) {
+    width: 100%;
+  }
   &-heading{
     text-align: center;
+    @include respond(tab-land) {
+      text-align: left;
+    }
   }
 }
 

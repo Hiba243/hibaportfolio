@@ -1,31 +1,20 @@
 .section-contact {
-  padding: 0 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
   @include respond(tab-port) {
     flex-direction: column;
   }
   @include respond(tab-phone) {
     gap: 0.75rem;
   }
-  &__content,
-  &__social {
+  &__content{
     display: flex;
     flex-direction: column;
-  }
-  &__social {
-    align-items: flex-end;
-    @include respond(tab-port) {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  }
-  &__content-email{
-    display: flex;
-    @include respond(phone) {
-      flex-direction: column;
-    }
+    justify-content: space-between;
+    row-gap: 5rem;
+    justify-content: space-between;
   }
 }
 .text-underline-pink{
@@ -35,12 +24,9 @@
     text-underline-offset: 3px;
     text-decoration-thickness: 3px;
 }
-.contact-align-center{
-  text-align: center;
-}
 .contactFlex{
   display: flex;
   flex-direction: column;
-  row-gap: 5rem;
+  row-gap: 3rem;
   align-items: center;
 }

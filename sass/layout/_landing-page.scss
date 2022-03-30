@@ -1,25 +1,18 @@
-.landing-page-flex{
-  height: 70vh;
-padding: 0 4rem;
+.landing-page-flex {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+  justify-content: space-between;
 }
-.landing-page-text{
-  margin-top: 5rem;
-}
-.landing-page-underline{
+.landing-page-underline {
   text-decoration: underline;
-  text-decoration-color: #FFC6FF;
-  text-underline-position: under; 
+  text-decoration-color: #ffc6ff;
+  text-underline-position: under;
 }
-.landing-page__bigheading{
-margin-bottom: 5rem;
-}
-.button-underline{
+.button-underline {
   text-decoration: underline;
-  text-decoration-color: #FFE45E;
-  text-underline-position: under; 
+  text-decoration-color: #ffe45e;
+  text-underline-position: under;
   text-underline-offset: 3px;
   text-decoration-thickness: 3px;
-}
-.work-padding{
-  margin-top:7rem;
 }

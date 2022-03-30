@@ -1,5 +1,3 @@
-import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import Tooltip from "@material-ui/core/Tooltip";
 import { withStyles } from '@material-ui/core/styles';
@@ -20,37 +18,35 @@ const Contact = () => {
 
     return <section className="section-contact section-padding" id="contact">
         <div className="section-contact__content">
-            {/* <ScrollAnimation animateIn="animate__fadeInLeft" className="animate__animated" animateOnce={true}> */}
-                <p className="text__heading font-accent text-underline-pink">Get In Touch</p>
-            {/* </ScrollAnimation> */}
+            <p className="text__heading font-accent text-underline-pink align-center">Get In Touch</p>
             <div className="contactFlex">
-            <p className="text__subheading-1 contact-align-center">
-                Want to work together?</p>
-            <div>
-            <p className="text__subheading contact-align-center">
-               Drop me an email</p>
-                
-                <CopyToClipboard
-                    text={"hibafatima24@gmail.com"}
-                    onCopy={() => setCopiedText("hibafatima24@gmail.com")}
-                >
-                    <LightTooltip
-                        title={
-                            copiedText === "hibafatima24@gmail.com"
-                                ? "✔ Copied to clipboard"
-                                : "Click to copy"
-                        }
-                        placement="top"
-                        onClose={() => setCopiedText("")}
+                <p className="text__subheading-1 align-center">
+                    Want to work together?</p>
+                <div>
+                    <p className="text__subheading align-center">
+                        Drop me an email</p>
+
+                    <CopyToClipboard
+                        text={"hibafatima24@gmail.com"}
+                        onCopy={() => setCopiedText("hibafatima24@gmail.com")}
                     >
-                        <p className="copy-click text__subheading contact-align-center">hibafatima24@gmail.com</p>
-                    </LightTooltip>
-                </CopyToClipboard>     
-                </div>    
+                        <LightTooltip
+                            title={
+                                copiedText === "hibafatima24@gmail.com"
+                                    ? "✔ Copied to clipboard"
+                                    : "Click to copy"
+                            }
+                            placement="top"
+                            onClose={() => setCopiedText("")}
+                        >
+                            <p className="copy-click text__subheading align-center">hibafatima24@gmail.com</p>
+                        </LightTooltip>
+                    </CopyToClipboard>
+                </div>
             </div>
         </div>
     </section>
-    
+
 }
 
 export default Contact;
