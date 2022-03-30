@@ -60,14 +60,14 @@ const Navbar = () => {
             {/* <div className="star" id="star-1" ref={refStar1}></div> */}
             <li className="nav__item">
               <a href="#about" className="nav__link link-effect" onClick={closeMenu}
-              >About Me</a
+              >About</a
               >
             </li>
           </div>
           <div className="link-flex">
             {/* <div className="star" id="star-2" ref={refStar2}></div> */}
             <li className="nav__item">
-              <a href="#work" className="nav__link link-effect" onClick={closeMenu}>My Work</a>
+              <a href="#work" className="nav__link link-effect" onClick={closeMenu}>Work</a>
             </li>
           </div>
           <div className="link-flex">
@@ -82,7 +82,7 @@ const Navbar = () => {
             {/* <div className="star" id="star-4" ref={refStar4}></div> */}
             <li className="nav__item">
               <a href="#contact" className="nav__link link-effect" onClick={closeMenu}
-              >My Resume</a
+              >Resume</a
               >
             </li>
           </div>

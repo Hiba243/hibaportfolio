@@ -566,6 +566,14 @@ hr {
   .col-flex-heading {
     text-align: center; }
 
+.about-content-flex {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem; }
+
+.ul-style {
+  list-style-position: inside; }
+
 .section-contact {
   padding: 0 4rem;
   display: flex;

@@ -93,3 +93,13 @@
     text-align: center;
   }
 }
+
+.about-content-flex{
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.ul-style{
+  list-style-position: inside;
+}

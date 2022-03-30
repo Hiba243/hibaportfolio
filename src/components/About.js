@@ -13,11 +13,21 @@ const About = () => {
 
                 <div className="col-flex">
                     <p className="text__subheading col-flex-heading">UI/UX Designing</p>
+                    <div className="about-content-flex">
                     <p className="text__content col-flex-content">I use research, brainstorming, wireframing prototyping, storytelling, visual design to design digital products while empathizing with the user’s needs through every step of the process.</p>
+                    <ul className="ul-style">
+                        <li className="text__content">I use Figma to create wireframes and prototypes</li>
+                    </ul>
+                    </div>
                 </div>
                 <div className="col-flex">
                     <p className="text__subheading col-flex-heading">Web Development</p>
+                    <div className="about-content-flex">
                     <p className="text__content col-flex-content">I have experience with full-stack web development which allows me to understand the constraints and reality of building a digital product, allowing me to design effectively and feasibly.</p>
+                    <ul className="ul-style">
+                        <li className="text__content">I am skilled in HTML, CSS, Sass and React</li>
+                    </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -30,8 +40,8 @@ const About = () => {
                     <p className="text__content col-flex-content">Digital products have great features but are being designed to overwhelm us. As a UI & UX designer my goal is to create designs that empowers the users and focuses on the wellbeing of the user.</p>
                 </div>
                 <div className="col-flex">
-                    <p className="text__subheading col-flex-heading">Empathizing with user’s problems is vital for designing a successful digital product</p>
-                    <p className="text__content col-flex-content">A digital product will be successfull when the user is able to use the product easily without any obstacles. This can be achieved by empathizing with the user’s needs and frustrations and designing a product which addresses those needs and by minimizing any pain points.</p>
+                    <p className="text__subheading col-flex-heading">Focusing on improving the user experience of a digital product is key for it’s success</p>
+                    <p className="text__content col-flex-content">I believe that by designing products that allows users to fulfill their needs with ease, we can ensure increased customer satisfaction which leads to more users using your product instead of competing products.</p>
                 </div>
             </div>
         </div>

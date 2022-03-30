@@ -13,9 +13,12 @@ const Projects = () => {
                 <div className="project__img">&nbsp;</div>
                 <div className="project__desc">
                     <div className="project__desc-content">
-                        <p className="project__desc-content-h1 text__subheading">Designing an easier way for users to find food they want to order from the vast amount of options present in a food ordering app</p>
                         <div className="text__content">
-                            <p className="project__desc-content-feat text__content">UI/UX design of a mobile app</p>
+                            <p className="project__desc-content-feat text__content">CraveFood</p>
+                        </div>
+                        <p className="project__desc-content-h1 text__subheading">How do we decide what to order in a food ordering app when we have so many options to choose from?</p>
+                        <div className="text__content">
+                            <p className="project__desc-content-feat text__content">UI/UX design of mobile app</p>
                         </div>
                         <div className="project__link">
                             <Link to="/projects/p1"><a className="text__content text-underline">View case study &rarr;</a>   </Link>
@@ -29,9 +32,13 @@ const Projects = () => {
                 <div className="project__img">&nbsp;</div>
                 <div className="project__desc">
                     <div className="project__desc-content">
-                        <p className="project__desc-content-h1 text__subheading">Virtual Tour of Meteropolitan Museum</p>
                         <div className="text__content">
-                            <p className="project__desc-content-feat text__content">UI/UX design and web development of a responsive web app</p>
+                            <p className="project__desc-content-feat text__content">VirtualArt</p>
+                        </div>
+                        <p className="project__desc-content-h1 text__subheading">How can we have the experience of visiting a museum from our home?</p>
+                        <div className="text__content">
+                            <p className="project__desc-content-feat text__content">UI/UX design of responsive website</p>
+                            <p className="project__desc-content-feat text__content">Web application development using React</p>
                         </div>
                         <div className="project__link">
                             <Link to="/projects/p1"><a className="text__content text-underline">View case study &rarr;</a>   </Link>
