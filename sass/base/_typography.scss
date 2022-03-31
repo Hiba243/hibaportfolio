@@ -28,6 +28,14 @@ body {
   }
   &__subheading {
     font-size: 2rem;
+    &-bold{
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    &-semi-bold{
+      font-size: 1.75rem;
+      font-weight: 600;
+    }
     @include respond(tab-land) {
       font-size: 1.75rem;
     }
@@ -51,4 +59,30 @@ body {
 
 .align-center{
   text-align: center;
+}
+.div-align-center{
+  margin: auto;
+}
+.width-half{
+  width: 68%;
+  margin: auto;
+}
+.row-flex{
+  display: flex;
+  align-items: center;
+  column-gap: 5rem;
+  justify-content: flex-start;
+  margin-left:15rem;
+}
+.figmabutton{
+  border: 1px solid $color-secondary;
+  border-radius: 5px;
+  color: color-secondary;
+  padding: 3rem 4rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: fit-content;
+  background-color: transparent;
+  margin: auto;
 }

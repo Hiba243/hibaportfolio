@@ -7,7 +7,7 @@ const Projects = () => {
             <div className="text__heading section-work__heading font-accent align-center">
                 My Work
             </div>
-            <div className="project">
+            <div className="project bg-yellow">
                 <div className="project__img">&nbsp;</div>
                 <div className="project__desc">
                     <div className="project__desc-content">
@@ -19,13 +19,13 @@ const Projects = () => {
                             <p className="text__content">UI/UX design of mobile app</p>
                         </div>
                         <div className="project__link">
-                            <Link to="/projects/p1"><a className="text__content text-underline">View case study &rarr;</a>   </Link>
-                            <Link to="/projects/p1"><a className="text__content text-underline">View demo &rarr;</a>   </Link>
+                            <Link to="/casestudy01"><p className="text__content text-underline text-underline-yellow">View case study &rarr;</p>   </Link>
+                            <Link to="/casestudy01"><p className="text__content text-underline text-underline-yellow">View demo &rarr;</p>   </Link>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="project">
+            <div className="project bg-brown">
                 <div className="project__img">&nbsp;</div>
                 <div className="project__desc">
                     <div className="project__desc-content">
@@ -38,14 +38,13 @@ const Projects = () => {
                             <p className="text__content">Web application development using React</p>
                         </div>
                         <div className="project__link">
-                            <Link to="/projects/p1"><a className="text__content text-underline">View case study &rarr;</a>   </Link>
-                            <Link to="/projects/p1"><a className="text__content text-underline">View demo &rarr;</a>   </Link>
+                            <Link to="/projects/p1"><p className="text__content text-underline text-underline-brown">View case study &rarr;</p>   </Link>
+                            <Link to="/projects/p1"><p className="text__content text-underline text-underline-brown">View demo &rarr;</p>   </Link>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <hr />
     </div>
 
 }

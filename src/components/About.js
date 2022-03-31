@@ -1,6 +1,10 @@
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+
 const About = () => {
 
     return <div>
+        <Navbar/>
         <section className="section-about section-padding" id="about">
             <div className="text__heading about-section-heading font-accent align-center">
                 About Me
@@ -44,7 +48,7 @@ const About = () => {
             </div>
 
         </section>
-        <hr />
+        <Footer/>
     </div>
 
 }

@@ -9,6 +9,8 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   window.onbeforeunload = function () {
@@ -20,7 +22,13 @@ function App() {
       <Route exact path="/">
         <Home/>
       </Route>
-      <Route exact path="/projects/:projectId">
+      <Route exact path="/about">
+        <About/>
+      </Route>
+      <Route exact path="/contact">
+        <Contact/>
+      </Route>
+      <Route exact path="/casestudy01">
         <Project1/>
       </Route>
       <Route component={Error} />

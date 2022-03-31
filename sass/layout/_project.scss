@@ -19,6 +19,7 @@
 }
 
 .project {
+  padding: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -76,8 +77,20 @@ hr {
 }
 .text-underline{
   text-decoration: underline;
-    text-decoration-color: #FFE45E;
     text-underline-position: under; 
     text-underline-offset: 3px;
     text-decoration-thickness: 3px;
+    &-yellow{
+      text-decoration-color: #FFE45E;
+    }
+    &-brown{
+      text-decoration-color:#65471B;
+    }
+}
+
+.bg-yellow{
+background-color: rgba(253,255,182,0.36);
+}
+.bg-brown{
+  background-color: rgba(101,71,27,0.14);
 }

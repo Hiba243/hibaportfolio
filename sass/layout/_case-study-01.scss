@@ -1,0 +1,56 @@
+.case-study-content{
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        &-inner{
+            display: flex;
+            flex-direction: column;
+            row-gap: 3rem;
+        }
+}
+.case-study-banner{
+    display: flex;
+    padding: 3rem;
+    justify-content: space-evenly;
+    @include respond(tab-port) {
+        flex-direction: column;
+        row-gap: 5rem;
+    }
+    &-content{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        justify-content: center;
+        @include respond(tab-port) {
+            width: 100%;
+        }
+    }
+    &-image{
+        text-align: center;
+    }
+}
+.logo-size{
+    font-size: 18px !important;
+
+}
+.banner-logo-flex{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+.responsive-img{
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+    @include respond(tab-port) {
+        max-width: 30%;
+    }
+}
+.underlined{
+    text-decoration: underline;
+    text-underline-position: under; 
+}
+.img-left{
+    text-align: left;
+}

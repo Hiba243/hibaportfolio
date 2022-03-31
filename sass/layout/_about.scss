@@ -65,7 +65,13 @@
     }
   }
 }
-
+.row-flex-content{
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  width: 50%;
+  padding: 3rem 0;
+}
 .about-content-flex{
   display: flex;
   flex-direction: column;

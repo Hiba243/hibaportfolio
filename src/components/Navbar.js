@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -34,20 +35,19 @@ const Navbar = () => {
   return (
     <header className="navbar-padding">
       <nav className="navbar-content">
-        <p className="nav__logo">Portfolio 2022</p>
+        <Link to="/"><p className="nav__logo">Portfolio 2022</p></Link>
         <ul className="nav__menu" ref={refNavMenu}>
-          <li className="nav__item">
-            <a href="#about" className="nav__link link-effect" onClick={closeMenu}
-            >About</a
-            >
+        <li className="nav__item">
+          <Link to="/"><p className="nav__link link-effect" onClick={closeMenu}>Work</p></Link>
           </li>
           <li className="nav__item">
-            <a href="#work" className="nav__link link-effect" onClick={closeMenu}>Work</a>
+          <Link to="/about"><p className="nav__link link-effect" onClick={closeMenu}
+            >About</p></Link>
           </li>
           <li className="nav__item">
-            <a href="#contact" className="nav__link link-effect" onClick={closeMenu}
-            >Get In Touch</a
-            >
+          <Link to="contact/"><p  className="nav__link link-effect" onClick={closeMenu}
+            >Get In Touch</p
+            ></Link>
           </li>
           <li className="nav__item">
             <a href="#contact" className="nav__link link-effect" onClick={closeMenu}

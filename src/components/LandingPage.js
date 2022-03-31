@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
     return (
@@ -13,7 +14,7 @@ const LandingPage = () => {
                     <p className="text__content">I’m passionate about designing digital products by focusing on the user’s wellbeing through good UI/UX design</p>
                 </div>
 
-                <p className="text__content button-underline">View my work &rarr;</p>
+                <a href="#work"><p className="text__subheading button-underline">View my work &darr;</p></a>
             </section>
             <hr />
         </div>
