@@ -45,6 +45,7 @@ const Projects = () => {
                 </div>
             </div>
         </section>
+        <hr/>
     </div>
 
 }

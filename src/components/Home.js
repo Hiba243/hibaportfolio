@@ -12,6 +12,8 @@ const Home = () => {
             <Navbar/>
             <LandingPage/>
             <Projects/>
+            <About/>
+            <Contact/>
             <Footer/>
         </React.Fragment>
     )

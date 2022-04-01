@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
 
@@ -38,14 +38,14 @@ const Navbar = () => {
         <Link to="/"><p className="nav__logo">Portfolio 2022</p></Link>
         <ul className="nav__menu" ref={refNavMenu}>
         <li className="nav__item">
-          <Link to="/"><p className="nav__link link-effect" onClick={closeMenu}>Work</p></Link>
+          <Link to="/#work"><p className="nav__link link-effect" onClick={closeMenu}>Work</p></Link>
           </li>
           <li className="nav__item">
-          <Link to="/about"><p className="nav__link link-effect" onClick={closeMenu}
+          <Link to="/#about"><p className="nav__link link-effect" onClick={closeMenu}
             >About</p></Link>
           </li>
           <li className="nav__item">
-          <Link to="/contact"><p  className="nav__link link-effect" onClick={closeMenu}
+          <Link to="/#contact"><p  className="nav__link link-effect" onClick={closeMenu}
             >Get In Touch</p
             ></Link>
           </li>

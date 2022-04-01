@@ -2,9 +2,6 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import Tooltip from "@material-ui/core/Tooltip";
 import { withStyles } from '@material-ui/core/styles';
 import React, { useState } from "react";
-import Footer from './Footer';
-import Navbar from './Navbar';
-
 const LightTooltip = withStyles((theme) => ({
     tooltip: {
         backgroundColor: theme.palette.common.white,
@@ -19,7 +16,7 @@ const Contact = () => {
     const [copiedText, setCopiedText] = useState();
 
     return <div>
-        <Navbar/>
+
     <section className="section-contact section-padding" id="contact">
         <div className="section-contact__content">
             <p className="text__heading font-accent text-underline-pink align-center">Get In Touch</p>
@@ -50,7 +47,6 @@ const Contact = () => {
             </div>
         </div>
     </section>
-    <Footer/>
     </div>
 
 }
