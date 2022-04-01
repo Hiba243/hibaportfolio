@@ -36,7 +36,7 @@ export default function Project1() {
                     </div>
                     <div className='banner-logo-flex'>
                         <span className='logo-size material-icons'>account_circle</span>
-                        <p className='text__content'>Student project for Google UX Design Certificate</p>
+                        <p className='text__content'>Project for Google UX Design Certificate</p>
                     </div>
                     <button className='text__content case-study-btn'>View Prototype</button>
                 </div>
