@@ -38,6 +38,7 @@ export default function Project1() {
                         <span className='logo-size material-icons'>account_circle</span>
                         <p className='text__content'>Student project for Google UX Design Certificate</p>
                     </div>
+                    <button className='text__content case-study-btn'>View Prototype</button>
                 </div>
                 <div className='case-study-banner-image'>
                     <img src={HeroImg ? HeroImg : ''} className='responsive-img' alt="home-pg"></img>
@@ -246,7 +247,7 @@ export default function Project1() {
                     <p className='text__content'>Colors were picked such that the contrast of the colors were accesssible and allowed text to be readable.</p>
                     <p className='text__content'>I used several of figma’s prototype features such as smart animate, after delay, and overflow scrolling.</p>
                 </div>
-                <button className='figmabutton text__subheading-bold'>View My Figma Design File</button>
+                <button className='figmabutton text__content'>View My Figma Design File</button>
                 <div className='case-study-banner-image section-padding'>
                         <img src={HighFiWireframe ? HighFiWireframe : ''} className='responsive-img' alt="home-pg"></img>
                     </div>

@@ -49,7 +49,7 @@ body {
 }
 .section-padding {
 
-  margin: 10rem 4rem;
+  margin: 10rem 8rem;
 
   @include respond(phone) {
     margin: 3rem;
@@ -75,14 +75,24 @@ body {
   margin-left:15rem;
 }
 .figmabutton{
-  border: 1px solid $color-secondary;
-  border-radius: 5px;
-  color: color-secondary;
-  padding: 3rem 4rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  border: 1px solid ;
+  border-radius: 10px;
+  background-color: #FFE45E;
+  padding: 1.5rem;
   width: fit-content;
-  background-color: transparent;
-  margin: auto;
+  margin: 4rem auto;
+}
+.case-study-btn{
+  border: 1px solid $color-secondary;
+  border-radius: 4px;
+  background-color: #FFE45E;
+  padding: 1.5rem;
+  width: fit-content;
+}
+.ctabutton{
+  border: 1px solid ;
+  border-radius: 10px;
+  background-color: #FFC6FF;
+  padding: 1.5rem;
+  width: fit-content;
 }

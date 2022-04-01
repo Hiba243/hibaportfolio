@@ -45,14 +45,14 @@ const Navbar = () => {
             >About</p></Link>
           </li>
           <li className="nav__item">
-          <Link to="contact/"><p  className="nav__link link-effect" onClick={closeMenu}
+          <Link to="/contact"><p  className="nav__link link-effect" onClick={closeMenu}
             >Get In Touch</p
             ></Link>
           </li>
           <li className="nav__item">
-            <a href="#contact" className="nav__link link-effect" onClick={closeMenu}
-            >Resume</a
-            >
+          <Link to="/contact"><p  className="nav__link link-effect" onClick={closeMenu}
+            >Resume</p
+            ></Link>
           </li>
         </ul>
         <div className="hamburger" ref={refHamburger} onClick={mobileMenu}>

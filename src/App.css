@@ -178,7 +178,7 @@ body {
       font-size: 1.5rem; } }
 
 .section-padding {
-  margin: 10rem 4rem; }
+  margin: 10rem 8rem; }
   @media only screen and (max-width: 26.875em) {
     .section-padding {
       margin: 3rem; } }
@@ -201,16 +201,26 @@ body {
   margin-left: 15rem; }
 
 .figmabutton {
-  border: 1px solid #0c0c0c;
-  border-radius: 5px;
-  color: color-secondary;
-  padding: 3rem 4rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #FFE45E;
+  padding: 1.5rem;
   width: fit-content;
-  background-color: transparent;
-  margin: auto; }
+  margin: 4rem auto; }
+
+.case-study-btn {
+  border: 1px solid #0c0c0c;
+  border-radius: 4px;
+  background-color: #FFE45E;
+  padding: 1.5rem;
+  width: fit-content; }
+
+.ctabutton {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #FFC6FF;
+  padding: 1.5rem;
+  width: fit-content; }
 
 .flower {
   z-index: 5000; }
@@ -270,7 +280,7 @@ body {
   align-items: center; }
 
 .navbar-padding {
-  padding: 4rem 4rem 0 4rem; }
+  padding: 4rem 8rem 0 8rem; }
   @media only screen and (max-width: 26.875em) {
     .navbar-padding {
       padding: 3rem; } }
@@ -355,7 +365,7 @@ body {
       row-gap: 3rem; } }
 
 .footer-padding {
-  padding: 4rem; }
+  padding: 4rem 8rem; }
   @media only screen and (max-width: 26.875em) {
     .footer-padding {
       padding: 3rem; } }
@@ -452,7 +462,7 @@ body {
 hr {
   margin-bottom: 3rem;
   background: linear-gradient(to right, #FFC6FF, #BEE1E6, #FFE45E);
-  height: 10px;
+  height: 5px;
   border: 0; }
 
 .text-underline {
@@ -583,7 +593,7 @@ hr {
 
 .case-study-banner {
   display: flex;
-  padding: 3rem;
+  padding: 5rem 3rem;
   justify-content: space-evenly; }
   @media only screen and (max-width: 60em) {
     .case-study-banner {

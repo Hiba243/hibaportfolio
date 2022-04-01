@@ -4,7 +4,7 @@
   align-items: center;
 }
 .navbar-padding{
-  padding: 4rem 4rem 0 4rem;
+  padding: 4rem 8rem 0 8rem;
   @include respond(phone) {
     padding: 3rem;
   }
@@ -110,7 +110,7 @@
   }
 }
 .footer-padding{
-  padding: 4rem;
+  padding: 4rem 8rem;
   @include respond(phone) {
     padding: 3rem;
   }

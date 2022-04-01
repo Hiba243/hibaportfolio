@@ -14,7 +14,7 @@ const LandingPage = () => {
                     <p className="text__content">I’m passionate about designing digital products by focusing on the user’s wellbeing through good UI/UX design</p>
                 </div>
 
-                <a href="#work"><p className="text__subheading button-underline">View my work &darr;</p></a>
+                <a href="#work"><p className="text__content button-underline ctabutton">View my work &darr;</p></a>
             </section>
             <hr />
         </div>

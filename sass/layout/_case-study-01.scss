@@ -10,7 +10,7 @@
 }
 .case-study-banner{
     display: flex;
-    padding: 3rem;
+    padding: 5rem 3rem;
     justify-content: space-evenly;
     @include respond(tab-port) {
         flex-direction: column;
