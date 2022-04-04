@@ -20,7 +20,7 @@ const Projects = () => {
                         </div>
                         <div className="project__link">
                             <Link to="/casestudy01"><p className="text__content text-underline text-underline-yellow">View case study &rarr;</p>   </Link>
-                            <Link to="/casestudy01"><p className="text__content text-underline text-underline-yellow">View demo &rarr;</p>   </Link>
+                            <a className="text__content text-underline text-underline-yellow" href="https://www.figma.com/proto/GE3ZC1BWbiWABLVG1XQXGw/CraveFood-Design-File---Hiba?node-id=252%3A1983&scaling=scale-down&page-id=252%3A1982&starting-point-node-id=252%3A1983" target="_blank">View Prototype &rarr;</a>
                         </div>
                     </div>
                 </div>

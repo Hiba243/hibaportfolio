@@ -71,6 +71,11 @@
   row-gap: 3rem;
   width: 50%;
   padding: 3rem 0;
+  &-casestudy{
+    @include respond(tab-land) {
+    width: 100%;
+    }
+  }
 }
 .about-content-flex{
   display: flex;

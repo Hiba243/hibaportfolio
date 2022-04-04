@@ -38,9 +38,12 @@ export default function Project1() {
                         <span className='logo-size material-icons'>account_circle</span>
                         <p className='text__content'>Project for Google UX Design Certificate</p>
                     </div>
-                    <button className='text__content case-study-btn'>View Prototype</button>
+                    <div className='banner-btn'>
+                    <a className="text__content case-study-btn" href="https://www.figma.com/proto/GE3ZC1BWbiWABLVG1XQXGw/CraveFood-Design-File---Hiba?node-id=252%3A1983&scaling=scale-down&page-id=252%3A1982&starting-point-node-id=252%3A1983" target="_blank">View Prototype &rarr;</a>
+                    <a className="text__content case-study-btn" href="https://www.figma.com/file/GE3ZC1BWbiWABLVG1XQXGw/CraveFood-Design-File---Hiba?node-id=331%3A787" target="_blank">View Design File &rarr;</a>
+                    </div>
                 </div>
-                <div className='case-study-banner-image'>
+                <div className='case-study-banner-image-center'>
                     <img src={HeroImg ? HeroImg : ''} className='responsive-img' alt="home-pg"></img>
                 </div>
             </div>
@@ -49,7 +52,7 @@ export default function Project1() {
                 <br />
                 <p className='text__content align-center'><a href='#1' className='underlined'>The problem</a> | <a href='#1' className='underlined'> Understanding user’s needs and frustrations</a> | <a href='#1' className='underlined'>Ideating solutions</a></p>
                 <br />
-                <p className='text__content align-center'><a href='#1' className='underlined'>Starting the design</a> | <a href='#1' className='underlined'> Testing and refining the design</a> | <a href='#1' className='underlined'>Finalizing the desig</a> | <a href='#1' className='underlined'>Conclusion</a></p>
+                <p className='text__content align-center'><a href='#1' className='underlined'>Starting the design</a> | <a href='#1' className='underlined'> Testing and refining the design</a> | <a href='#1' className='underlined'>Finalizing the design</a> | <a href='#1' className='underlined'>Conclusion</a></p>
             </div>
             <hr />
             <div className='section-padding case-study-content'>
@@ -68,7 +71,7 @@ export default function Project1() {
                 <p className='text__subheading-bold'>Presenting too many choices to users has shown to have negative effects on decision making ability</p>
                 <p className='text__content'>I began to draw from research articles on the topic of effect of too many choices, where I learned that: </p>
                 <div className='div-align-center'>
-                    <p className='text__subheading align-center width-half'>“Choice overload leads users to become frustrated, less likely to choose, and less satisfied with their selection”</p>
+                    <p className='text__content align-center width-half'>“Choice overload leads users to become frustrated, less likely to choose, and less satisfied with their selection”</p>
                 </div>
             </div>
             <div className='section-padding case-study-content'>
@@ -98,19 +101,19 @@ export default function Project1() {
                 </div>
                 <div className='case-study-content-inner'>
                     <p className='text__subheading-semi-bold'>Persona of a user using food ordering app</p>
-                    <div className='case-study-banner-image'>
+                    <div className='case-study-banner-image-center'>
                         <img src={Persona ? Persona : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='case-study-content-inner'>
                     <p className='text__subheading-semi-bold'>User journey map</p>
-                    <div className='case-study-banner-image'>
+                    <div className='case-study-banner-image-center'>
                         <img src={Journey ? Journey : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='case-study-content-inner'>
                     <p className='text__subheading-semi-bold'>Affinity Diagram</p>
-                    <div className='case-study-banner-image'>
+                    <div className='case-study-banner-image-center'>
                         <img src={Affinity ? Affinity : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
                 </div>
@@ -119,7 +122,7 @@ export default function Project1() {
                 <p className='text__content text-underline text-underline-yellow' >Competetive audit</p>
                 <p className='text__subheading-bold'>Competing app’s did not provide a easy way for users to decide what food they want to order</p>
                 <p className='text__content'>I analyzed popular food ordering apps and found that most of them presented an overload of information and choice to the users. The only thing they offered to help users to make decision more easily was a traditional filter button, which wasn’t doing much help. Improving the filter functionality became my opportunity for the solution.</p>
-                <div className='case-study-banner-image'>
+                <div className='case-study-banner-image-center'>
                     <img src={Competetive ? Competetive : ''} className='responsive-img' alt="home-pg"></img>
                 </div>
             </div>
@@ -164,7 +167,7 @@ export default function Project1() {
                 <p className='text__content text-underline text-underline-yellow' >User flow of my solution</p>
                 <p className='text__subheading-bold'>Constructing the user flow of my solution helped me visualize the solution which guided me while building wireframes</p>
                 <p className='text__content'>I constructed a user flow of a basic start to finish journey of ordering a food on a food ordering app and also incorporated my key solution i.e. a two step filter</p>
-                <div className='case-study-banner-image'>
+                <div className='case-study-banner-image-center'>
                     <img src={UserFlow ? UserFlow : ''} className='responsive-img' alt="home-pg"></img>
                 </div>
             </div>
@@ -172,11 +175,11 @@ export default function Project1() {
                 <p className='text__content text-underline text-underline-yellow' >Low fidelity wireframes and prototype</p>
                 <p className='text__subheading-bold'>I built low-fidelity wireframes to focus on the creating the app layout in alignment with my solution</p>
                 <p className='text__content'>I started drawing up low-fidelity wireframes on figma to finalize the layout of each screen before moving to visuals details such as colors and fonts. I then connected the screens to create a working low-fidelity prototype.</p>
-                <div className='row-flex'>
-                    <div className='case-study-banner-image'>
+                <div>
+                    <div className='case-study-banner-image-center'>
                         <img src={LowFiWireframe ? LowFiWireframe : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
-                    <div className='case-study-banner-image'>
+                    <div className='case-study-banner-image-center'>
                         <img src={LowFiPrototype ? LowFiPrototype : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
                 </div>
@@ -196,7 +199,7 @@ export default function Project1() {
                 <p className='text__content text-underline text-underline-yellow' >Refining low fidelity wireframes based on feedback</p>
                 <p className='text__subheading-bold'>Iterating on my design based on feedback</p>
                 <div className='row-flex'>
-                    <div className='row-flex-content'>
+                    <div className='row-flex-content-casestudy'>
                         <p className='text__subheading-semi-bold'>User’s delivery address on home page was hard to find</p>
                         <ul className='text__content ul-style'>
                             <li>Users were not able to easily find their address details on the home page.</li>
@@ -208,7 +211,7 @@ export default function Project1() {
                     </div>
                 </div>
                 <div className='row-flex'>
-                    <div className='row-flex-content'>
+                    <div className='row-flex-content-casestudy'>
                         <p className='text__subheading-semi-bold'>Upcoming orders on the home page is not prominent</p>
                         <ul className='text__content ul-style'>
                             <li>Users were not able to easily find their address details on the home page.</li>
@@ -220,7 +223,7 @@ export default function Project1() {
                     </div>
                 </div>
                 <div className='row-flex'>
-                    <div className='row-flex-content'>
+                    <div className='row-flex-content-casestudy'>
                         <p className='text__subheading-semi-bold'>Many users went back to cart screen to confirm their order before making payment</p>
                         <ul className='text__content ul-style'>
                             <li>After users view their cart and proceed to payment page, most of the users went back to cart page to reverify their order before making the payment. </li>
@@ -247,11 +250,14 @@ export default function Project1() {
                     <p className='text__content'>Colors were picked such that the contrast of the colors were accesssible and allowed text to be readable.</p>
                     <p className='text__content'>I used several of figma’s prototype features such as smart animate, after delay, and overflow scrolling.</p>
                 </div>
-                <button className='figmabutton text__content'>View My Figma Design File</button>
-                <div className='case-study-banner-image section-padding'>
+                <div className='banner-btn'>
+                    <a className="text__content case-study-btn" href="https://www.figma.com/proto/GE3ZC1BWbiWABLVG1XQXGw/CraveFood-Design-File---Hiba?node-id=252%3A1983&scaling=scale-down&page-id=252%3A1982&starting-point-node-id=252%3A1983" target="_blank">View Prototype &rarr;</a>
+                    <a className="text__content case-study-btn" href="https://www.figma.com/file/GE3ZC1BWbiWABLVG1XQXGw/CraveFood-Design-File---Hiba?node-id=331%3A787" target="_blank">View Design File &rarr;</a>
+                    </div>
+                    <div className='case-study-banner-image-center section-padding'>
                         <img src={HighFiWireframe ? HighFiWireframe : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
-                    <div className='case-study-banner-image'>
+                    <div className='case-study-banner-image-center'>
                         <img src={HighFiPrototype ? HighFiPrototype : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
                 </div>
@@ -262,53 +268,53 @@ export default function Project1() {
                     <p className='text__content'>I used features in figma such as auto layout and layout grids to further assure my design is uniform and clean.</p>
                 </div>
                 
-                <div className='case-study-banner-image section-padding'>
+                <div className='case-study-banner-image-center section-padding'>
                         <img src={Sticker ? Sticker : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='section-padding case-study-content'>
                 <p className='text__content text-underline text-underline-yellow' >The Solution</p>
                 <p className='text__subheading-bold'>How my designs provided solutions to user’s problems</p>
-                <div className='section-padding case-study-content'>
+                <div className='case-study-content'>
                 <div className='row-flex'>
-                    <div className='row-flex-content'>
-                        <p className='text__subheading-semi-bold'>Included a two step filter at the home page to get user’s criteria upfront and only display food which matches with user’s criteria</p>
+                    <div className='row-flex-content-casestudy'>
+                        <p className='text__subheading-small'>Included a two step filter at the home page to get user’s criteria upfront and only display food which matches with user’s criteria</p>
                     </div>
-                    <div className='case-study-banner-image img-left'>
+                    <div className='case-study-banner-image'>
                         <img src={Solution1 ? Solution1 : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
-                    <div className='row-flex-content'>
-                        <p className='text__subheading-semi-bold'>Used a conversational and friendly tone at the filter step to make the decision making process simpler</p>
+                    <div className='row-flex-content-casestudy'>
+                        <p className='text__subheading-small'>Used a conversational and friendly tone at the filter step to make the decision making process simpler</p>
 
                     </div>
-                    <div className='case-study-banner-image img-left' >
+                    <div className='case-study-banner-image' >
                         <img src={Solution2 ? Solution2 : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
-                    <div className='row-flex-content'>
-                        <p className='text__subheading-semi-bold'>Included image and tags for each food item to provide more information on whether a food item matches with user’s criteria</p>
+                    <div className='row-flex-content-casestudy'>
+                        <p className='text__subheading-small'>Included image and tags for each food item to provide more information on whether a food item matches with user’s criteria</p>
                     </div>
-                    <div className='case-study-banner-image img-left'>
+                    <div className='case-study-banner-image'>
                         <img src={Solution3 ? Solution3 : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
-                    <div className='row-flex-content'>
-                        <p className='text__subheading-semi-bold'>Minimized clutter on screen to prevent information overload</p>
+                    <div className='row-flex-content-casestudy'>
+                        <p className='text__subheading-small'>Minimized clutter on screen to prevent information overload</p>
 
                     </div>
-                    <div className='case-study-banner-image img-left'>
+                    <div className='case-study-banner-image'>
                         <img src={Solution4 ? Solution4 : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
-                    <div className='row-flex-content'>
-                        <p className='text__subheading-semi-bold'>Used color coding and whitespace to better organize content on screen</p>
+                    <div className='row-flex-content-casestudy'>
+                        <p className='text__subheading-small'>Used color coding and whitespace to better organize content on screen</p>
                     </div>
-                    <div className='case-study-banner-image img-left'>
+                    <div className='case-study-banner-image'>
                         <img src={Solution5 ? Solution5 : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
                 </div>

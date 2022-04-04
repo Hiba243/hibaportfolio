@@ -27,8 +27,16 @@
         }
     }
     &-image{
+        text-align: right;
+        @include respond(tab-port) {
         text-align: center;
+        align-self: center;
+        }
+        &-center{
+            text-align: center;
+        }
     }
+    
 }
 .logo-size{
     font-size: 18px !important;
@@ -53,4 +61,21 @@
 }
 .img-left{
     text-align: left;
+    @include respond(tab-land) {
+    text-align: center;
+    align-self: center;
+    }
+}
+.banner-btn{
+    display: flex;
+    column-gap: 3rem;
+    @include respond(tab-port) {
+        flex-direction: column;
+        row-gap: 3rem;
+        align-items: center;
+    }
+}
+.iframe-style{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 1000px;
 }
