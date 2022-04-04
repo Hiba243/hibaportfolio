@@ -6,7 +6,7 @@ import Persona from '../images/persona.png'
 import Journey from '../images/user-journey-map.png'
 import Affinity from '../images/affinity.png'
 import Competetive from '../images/competetive.png'
-import UserFlow from '../images/userflow.jpg'
+import UserFlow from '../images/userflow.png'
 import LowFiWireframe from '../images/lofiwire.png'
 import LowFiPrototype from '../images/lofiproto.png'
 import Improvement1 from '../images/imp1.png'
@@ -50,96 +50,87 @@ export default function Project1() {
             <div className='section-padding'>
                 <p className='text__subheading align-center'>Quick Links</p>
                 <br />
-                <p className='text__content align-center'><a href='#1' className='underlined'>The problem</a> | <a href='#1' className='underlined'> Understanding user’s needs and frustrations</a> | <a href='#1' className='underlined'>Ideating solutions</a></p>
+                <p className='text__content align-center'><a href='#theproblem' className='underlined'>The problem</a> | <a href='#understandingusers' className='underlined'> Understanding user’s needs and frustrations</a> | <a href='#ideating' className='underlined'>Ideating solutions</a></p>
                 <br />
-                <p className='text__content align-center'><a href='#1' className='underlined'>Starting the design</a> | <a href='#1' className='underlined'> Testing and refining the design</a> | <a href='#1' className='underlined'>Finalizing the design</a> | <a href='#1' className='underlined'>Conclusion</a></p>
+                <p className='text__content align-center'><a href='#startingdesign' className='underlined'>Starting the design</a> | <a href='#testingdesign' className='underlined'> Testing and refining the design</a> | <a href='#finaldesigns' className='underlined'>Finalizing the design</a> | <a href='#conclusion' className='underlined'>Conclusion</a></p>
             </div>
             <hr />
-            <div className='section-padding case-study-content'>
+            <div className='section-padding case-study-content' id="theproblem">
                 <p className='text__content text-underline text-underline-yellow' >The problem</p>
                 <p className='text__subheading-bold'>Users are often overwhelmed trying to decide what to order in a food ordering app</p>
                 <p className='text__content'>With this case study, I wanted to explore the reason why we face difficulty in deciding what to order in food ordering apps, and I wanted to design a solution for it.</p>
             </div>
             <hr />
-            <div className='section-padding'>
+            <div className='section-padding' id="understandingusers">
                 <p className='text__subheading align-center'>Understanding user's needs and frustrations</p>
                 <br />
-                <p className='text__content align-center'><a href='#1' className='underlined'>Research</a> | <a href='#1' className='underlined'> User interviews</a> | <a href='#1' className='underlined'>Competetive audit</a></p>
+                <p className='text__content align-center'><a href='#research' className='underlined'>Research</a> | <a href='#userinterview' className='underlined'> User interviews</a> | <a href='#competetiveaudit' className='underlined'>Competetive audit</a></p>
             </div>
-            <div className='section-padding case-study-content'>
+            <div className='section-padding case-study-content' id="research">
                 <p className='text__content text-underline text-underline-yellow' >Research</p>
-                <p className='text__subheading-bold'>Presenting too many choices to users has shown to have negative effects on decision making ability</p>
-                <p className='text__content'>I began to draw from research articles on the topic of effect of too many choices, where I learned that: </p>
+                <p className='text__subheading-bold'>Too many choices has shown to have negative effects on decision making ability</p>
+                <p className='text__content'>I began to draw from research articles on the effect of too many choices, where I learned that: </p>
                 <div className='div-align-center'>
                     <p className='text__content align-center width-half'>“Choice overload leads users to become frustrated, less likely to choose, and less satisfied with their selection”</p>
                 </div>
             </div>
-            <div className='section-padding case-study-content'>
+            <div className='section-padding case-study-content' id="userinterview">
                 <p className='text__content text-underline text-underline-yellow' >User interviews</p>
                 <p className='text__subheading-bold'>My interviewees spent a significant amount of time trying to find the perfect food to order,
                     but ended up feeling unsure about their selection</p>
                 <div className='case-study-content-inner'>
-                    <p className='text__content'>I conducted user interviews to further understand users who find difficulty deciding what food to order. I asked them the below questions to find themes on user’s experience with a food ordering app. </p>
-                    <p className='text__content'>I then created personas to represent the primary user groups of food ordering app and also mapped out their journey on a food ordering app to identify at which steps users face difficulties.</p>
-                    <p className='text__content'>I summarized the findings on user’s current experience with a food experience into an affinity diagram as well.</p>
-                </div>
-                <div className='case-study-content-inner'>
                     <p className='text__subheading-semi-bold'>User interview questions</p>
+                    <p className='text__content'>I conducted user interviews to further understand why users face difficulty deciding what food to order.</p>
                     <ul className='text__content ul-style'>
                         <li>How do you decide what food you want to order?</li>
                         <li>What parts of a food ordering app do you like?</li>
                         <li>What parts of a food ordering app do you think can be improved?</li>
                     </ul>
-                </div>
-                <div className='case-study-content-inner'>
                     <p className='text__subheading-semi-bold'>Key insights obtained from the user interviews</p>
                     <ul className='text__content ul-style'>
                         <li>The primary user groups I found were youngsters and adults.</li>
                         <li>Users spend a significant amount of time trying to find a food item they’ll like.</li>
                         <li>Users often feel overloaded with all the options and information heavy UI.</li>
                     </ul>
-                </div>
-                <div className='case-study-content-inner'>
                     <p className='text__subheading-semi-bold'>Persona of a user using food ordering app</p>
+                    <p className='text__content'>I created personas to represent the primary user groups of food ordering apps.</p>
                     <div className='case-study-banner-image-center'>
                         <img src={Persona ? Persona : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
-                </div>
-                <div className='case-study-content-inner'>
                     <p className='text__subheading-semi-bold'>User journey map</p>
+                    <p className='text__content'>I mapped out user's journey on a food ordering app to identify at which steps users face difficulties.</p>
                     <div className='case-study-banner-image-center'>
                         <img src={Journey ? Journey : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
-                </div>
-                <div className='case-study-content-inner'>
                     <p className='text__subheading-semi-bold'>Affinity Diagram</p>
+                    <p className='text__content'>I summarized the findings from user interviews into an affinity diagram as well.</p>
                     <div className='case-study-banner-image-center'>
                         <img src={Affinity ? Affinity : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
                 </div>
             </div>
-            <div className='section-padding case-study-content'>
+            <div className='section-padding case-study-content' id="competetiveaudit">
                 <p className='text__content text-underline text-underline-yellow' >Competetive audit</p>
-                <p className='text__subheading-bold'>Competing app’s did not provide a easy way for users to decide what food they want to order</p>
+                <p className='text__subheading-bold'>Competing app’s offered a traditional filter which wasn't much useful</p>
                 <p className='text__content'>I analyzed popular food ordering apps and found that most of them presented an overload of information and choice to the users. The only thing they offered to help users to make decision more easily was a traditional filter button, which wasn’t doing much help. Improving the filter functionality became my opportunity for the solution.</p>
                 <div className='case-study-banner-image-center'>
-                    <img src={Competetive ? Competetive : ''} className='responsive-img' alt="home-pg"></img>
+                    <img src={Competetive ? Competetive : ''} className='responsive-img img-competetive' alt="home-pg"></img>
                 </div>
             </div>
             <hr />
-            <div className='section-padding'>
+            <div className='section-padding' id="ideating">
                 <p className='text__subheading align-center'>Ideating solutions</p>
                 <br />
-                <p className='text__content align-center'><a href='#1' className='underlined'>Different approaches considered </a> | <a href='#1' className='underlined'> Finalized approach</a></p>
+                <p className='text__content align-center'><a href='#differentapproaches' className='underlined'>Different approaches considered </a> | <a href='#finalizedapproach' className='underlined'> Finalized approach</a></p>
             </div>
-            <div className='section-padding case-study-content'>
+            <div className='section-padding case-study-content' id="differentapproaches">
                 <p className='text__content text-underline text-underline-yellow' >Different approaches considered</p>
-                <p className='text__subheading-bold'>Upon considering the effects of other approaches, I stuck to my idea of a two step filter. </p>
-                <p className='text__content'>I spent several days trying to explore different approaches: displaying food by categories and a two step filter. However I upon thinking of the effect of displaying food by categories, I thought it could still potentially cause confuse the user as to which category they should explore and it may end up in the user exploring all the categories and becoming overwhelmed. Thus I chose to stick with the two step filter.</p>
+                <p className='text__subheading-bold'>Upon considering the effects of other approaches, I stuck to my idea of a custom two step filter. </p>
+                <p className='text__content'>I spent several days trying to explore different approaches: displaying food by categories and a two step filter. However upon thinking of the effect of displaying food by categories, I thought it could still potentially cause confusion to the user as to which category they should explore and it may end up in the user exploring all the categories and becoming overwhelmed. Thus I chose to stick with the custom two step filter.</p>
             </div>
-            <div className='section-padding case-study-content'>
+            <div className='section-padding case-study-content' id="finalizedapproach">
                 <p className='text__content text-underline text-underline-yellow' >Finalized approach</p>
-                <p className='text__subheading-bold'>The idea behind the two step filter is to get the user’s search criteria right from the start, and only show food items which match with the user’s criteria.</p>
+                <p className='text__subheading-bold'>Creating a two step filter that strives to be more useful than a traditional filter</p>
                 <div className='case-study-content-inner'>
                     <p className='text__subheading-semi-bold'>Improving the decision making process of the user by incorporating a two step filter</p>
                     <ul className='text__content ul-style'>
@@ -158,24 +149,24 @@ export default function Project1() {
                 </div>
             </div>
             <hr />
-            <div className='section-padding'>
+            <div className='section-padding' id="startingdesign">
                 <p className='text__subheading align-center'>Starting the design</p>
                 <br />
-                <p className='text__content align-center'><a href='#1' className='underlined'>User flow of my app</a> | <a href='#1' className='underlined'> Low fidelity wireframe and prototype </a></p>
+                <p className='text__content align-center'><a href='#userflow' className='underlined'>User flow of my app</a> | <a href='#lowfidelity' className='underlined'> Low fidelity wireframe and prototype </a></p>
             </div>
-            <div className='section-padding case-study-content'>
+            <div className='section-padding case-study-content' id="userflow">
                 <p className='text__content text-underline text-underline-yellow' >User flow of my solution</p>
-                <p className='text__subheading-bold'>Constructing the user flow of my solution helped me visualize the solution which guided me while building wireframes</p>
+                <p className='text__subheading-bold'>Constructing the user flow of my solution</p>
                 <p className='text__content'>I constructed a user flow of a basic start to finish journey of ordering a food on a food ordering app and also incorporated my key solution i.e. a two step filter</p>
                 <div className='case-study-banner-image-center'>
                     <img src={UserFlow ? UserFlow : ''} className='responsive-img' alt="home-pg"></img>
                 </div>
             </div>
-            <div className='section-padding case-study-content'>
+            <div className='section-padding case-study-content' id="lowfidelity">
                 <p className='text__content text-underline text-underline-yellow' >Low fidelity wireframes and prototype</p>
-                <p className='text__subheading-bold'>I built low-fidelity wireframes to focus on the creating the app layout in alignment with my solution</p>
+                <p className='text__subheading-bold'>I built low-fidelity wireframes to finalize an app layout in alignment with my solution</p>
                 <p className='text__content'>I started drawing up low-fidelity wireframes on figma to finalize the layout of each screen before moving to visuals details such as colors and fonts. I then connected the screens to create a working low-fidelity prototype.</p>
-                <div>
+                <div className='lofiwireflex'>
                     <div className='case-study-banner-image-center'>
                         <img src={LowFiWireframe ? LowFiWireframe : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
@@ -185,63 +176,65 @@ export default function Project1() {
                 </div>
             </div>
             <hr />
-            <div className='section-padding'>
+            <div className='section-padding' id="testingdesign">
                 <p className='text__subheading align-center'>Testing and refining the design</p>
                 <br />
-                <p className='text__content align-center'><a href='#1' className='underlined'>Usability Study </a> | <a href='#1' className='underlined'> Refining designs based on usability study findings </a></p>
+                <p className='text__content align-center'><a href='#usabilitystudy' className='underlined'>Usability Study </a> | <a href='#refiningdesign' className='underlined'> Refining designs based on usability study findings </a></p>
             </div>
-            <div className='section-padding case-study-content'>
+            <div className='section-padding case-study-content' id="usabilitystudy">
                 <p className='text__content text-underline text-underline-yellow' >Conducting usability study to test my design</p>
                 <p className='text__subheading-bold'>Conducting a usability study provided useful feedback on my design</p>
                 <p className='text__content'>I coducted a usability study on my low fidelity prototype to find improvement opportunties in my design. I iterated and refined my designs based on feedback from 3 users and 2 peers.</p>
             </div>
-            <div className='section-padding case-study-content'>
+            <div className='section-padding case-study-content' id="refiningdesign">
                 <p className='text__content text-underline text-underline-yellow' >Refining low fidelity wireframes based on feedback</p>
                 <p className='text__subheading-bold'>Iterating on my design based on feedback</p>
+                <div className='imp-flex'>
                 <div className='row-flex'>
-                    <div className='row-flex-content-casestudy'>
+                    <div className='row-flex-content-casestudy col-width-half'>
                         <p className='text__subheading-semi-bold'>User’s delivery address on home page was hard to find</p>
                         <ul className='text__content ul-style'>
                             <li>Users were not able to easily find their address details on the home page.</li>
                             <li>So I made the address details more prominent and accompanied it with a meaningful logo so that user can easily find their address details.</li>
                         </ul>
                     </div>
-                    <div className='case-study-banner-image'>
-                        <img src={Improvement1 ? Improvement1 : ''} className='responsive-img' alt="home-pg"></img>
+                    <div className='case-study-banner-image col-width-half'>
+                        <img src={Improvement1 ? Improvement1 : ''} className='responsive-img imp-img' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
-                    <div className='row-flex-content-casestudy'>
+                    <div className='row-flex-content-casestudy col-width-half'>
                         <p className='text__subheading-semi-bold'>Upcoming orders on the home page is not prominent</p>
                         <ul className='text__content ul-style'>
                             <li>Users were not able to easily find their address details on the home page.</li>
                             <li>So I changed the placement of the upcoming order details by bringing it front and center.</li>
                         </ul>
                     </div>
-                    <div className='case-study-banner-image'>
-                        <img src={Improvement2 ? Improvement2 : ''} className='responsive-img ' alt="home-pg"></img>
+                    <div className='case-study-banner-image col-width-half'>
+                        <img src={Improvement2 ? Improvement2 : ''} className='responsive-img imp-img' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
-                    <div className='row-flex-content-casestudy'>
+                    <div className='row-flex-content-casestudy col-width-half'>
                         <p className='text__subheading-semi-bold'>Many users went back to cart screen to confirm their order before making payment</p>
                         <ul className='text__content ul-style'>
                             <li>After users view their cart and proceed to payment page, most of the users went back to cart page to reverify their order before making the payment. </li>
                             <li>So when the user is on the view cart page and clicks on make payment button, I added a confirm order pop up which summarizes the order details and total bill payment to help the user feel sure about their order before proceeding to payment.</li>
                         </ul>
                     </div>
-                    <div className='case-study-banner-image'>
-                        <img src={Improvement3 ? Improvement3 : ''} className='responsive-img' alt="home-pg"></img>
+                    <div className='case-study-banner-image col-width-half impimg-3-align'>
+                        <img src={Improvement3 ? Improvement3 : ''} className='responsive-img impimg-3' alt="home-pg"></img>
                     </div>
+                </div>
                 </div>
             </div>
             <hr />
-            <div className='section-padding'>
+            <div className='section-padding' id="finaldesigns">
                 <p className='text__subheading align-center'>Finalizing the design</p>
                 <br />
-                <p className='text__content align-center'><a href='#1' className='underlined'>High fidelity mockups and prototype</a> | <a href='#1' className='underlined'> The solution </a></p>
+                <p className='text__content align-center'><a href='#highfidelity' className='underlined'>High fidelity mockups and prototype</a> | <a href='#solution' className='underlined'> The solution </a></p>
             </div>
-            <div className='section-padding case-study-content'>
+            <div className='section-padding case-study-content' id="highfidelity">
                 <p className='text__content text-underline text-underline-yellow' >High fidelity mockups and prototype</p>
                 <p className='text__subheading-bold'>The Final Design</p>
                 <div className='case-study-content-inner'>
@@ -250,15 +243,15 @@ export default function Project1() {
                     <p className='text__content'>Colors were picked such that the contrast of the colors were accesssible and allowed text to be readable.</p>
                     <p className='text__content'>I used several of figma’s prototype features such as smart animate, after delay, and overflow scrolling.</p>
                 </div>
-                <div className='banner-btn'>
+                <div className='banner-btn hifi-btn'>
                     <a className="text__content case-study-btn" href="https://www.figma.com/proto/GE3ZC1BWbiWABLVG1XQXGw/CraveFood-Design-File---Hiba?node-id=252%3A1983&scaling=scale-down&page-id=252%3A1982&starting-point-node-id=252%3A1983" target="_blank">View Prototype &rarr;</a>
                     <a className="text__content case-study-btn" href="https://www.figma.com/file/GE3ZC1BWbiWABLVG1XQXGw/CraveFood-Design-File---Hiba?node-id=331%3A787" target="_blank">View Design File &rarr;</a>
                     </div>
                     <div className='case-study-banner-image-center section-padding'>
-                        <img src={HighFiWireframe ? HighFiWireframe : ''} className='responsive-img' alt="home-pg"></img>
+                        <img src={HighFiWireframe ? HighFiWireframe : ''} className='responsive-img hifi-img' alt="home-pg"></img>
                     </div>
                     <div className='case-study-banner-image-center'>
-                        <img src={HighFiPrototype ? HighFiPrototype : ''} className='responsive-img' alt="home-pg"></img>
+                        <img src={HighFiPrototype ? HighFiPrototype : ''} className='responsive-img hifi-proto-img' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='section-padding case-study-content'>
@@ -268,60 +261,60 @@ export default function Project1() {
                     <p className='text__content'>I used features in figma such as auto layout and layout grids to further assure my design is uniform and clean.</p>
                 </div>
                 
-                <div className='case-study-banner-image-center section-padding'>
+                <div className='case-study-banner-image-center section-padding-min'>
                         <img src={Sticker ? Sticker : ''} className='responsive-img' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='section-padding case-study-content'>
-                <p className='text__content text-underline text-underline-yellow' >The Solution</p>
+                <p className='text__content text-underline text-underline-yellow' id="solution">The Solution</p>
                 <p className='text__subheading-bold'>How my designs provided solutions to user’s problems</p>
-                <div className='case-study-content'>
+                <div className='case-study-content imp-flex'>
                 <div className='row-flex'>
-                    <div className='row-flex-content-casestudy'>
+                    <div className='row-flex-content-casestudy col-width-half'>
                         <p className='text__subheading-small'>Included a two step filter at the home page to get user’s criteria upfront and only display food which matches with user’s criteria</p>
                     </div>
-                    <div className='case-study-banner-image'>
-                        <img src={Solution1 ? Solution1 : ''} className='responsive-img' alt="home-pg"></img>
+                    <div className='case-study-banner-image col-width-half'>
+                        <img src={Solution1 ? Solution1 : ''} className='responsive-img imp-img' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
-                    <div className='row-flex-content-casestudy'>
+                    <div className='row-flex-content-casestudy col-width-half'>
                         <p className='text__subheading-small'>Used a conversational and friendly tone at the filter step to make the decision making process simpler</p>
 
                     </div>
-                    <div className='case-study-banner-image' >
-                        <img src={Solution2 ? Solution2 : ''} className='responsive-img' alt="home-pg"></img>
+                    <div className='case-study-banner-image col-width-half impimg-3-align' >
+                        <img src={Solution2 ? Solution2 : ''} className='responsive-img impimg-3' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
-                    <div className='row-flex-content-casestudy'>
+                    <div className='row-flex-content-casestudy col-width-half'>
                         <p className='text__subheading-small'>Included image and tags for each food item to provide more information on whether a food item matches with user’s criteria</p>
                     </div>
-                    <div className='case-study-banner-image'>
-                        <img src={Solution3 ? Solution3 : ''} className='responsive-img' alt="home-pg"></img>
+                    <div className='case-study-banner-image col-width-half impimg-3-align'>
+                        <img src={Solution3 ? Solution3 : ''} className='responsive-img impimg-3' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
-                    <div className='row-flex-content-casestudy'>
+                    <div className='row-flex-content-casestudy col-width-half'>
                         <p className='text__subheading-small'>Minimized clutter on screen to prevent information overload</p>
 
                     </div>
-                    <div className='case-study-banner-image'>
-                        <img src={Solution4 ? Solution4 : ''} className='responsive-img' alt="home-pg"></img>
+                    <div className='case-study-banner-image col-width-half impimg-3-align'>
+                        <img src={Solution4 ? Solution4 : ''} className='responsive-img impimg-3' alt="home-pg"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
-                    <div className='row-flex-content-casestudy'>
+                    <div className='row-flex-content-casestudy col-width-half'>
                         <p className='text__subheading-small'>Used color coding and whitespace to better organize content on screen</p>
                     </div>
-                    <div className='case-study-banner-image'>
-                        <img src={Solution5 ? Solution5 : ''} className='responsive-img' alt="home-pg"></img>
+                    <div className='case-study-banner-image col-width-half impimg-3-align'>
+                        <img src={Solution5 ? Solution5 : ''} className='responsive-img impimg-3' alt="home-pg"></img>
                     </div>
                 </div>
                 </div>
             </div>
             <hr/>
-            <div className='section-padding'>
+            <div className='section-padding' id="conclusion">
                 <p className='text__subheading align-center'>Conclusion</p>
             </div>
             <div className='section-padding case-study-content'>
@@ -331,8 +324,8 @@ export default function Project1() {
                     <p  className='text__content'>Displaying lots of options to users may attract the users, but ultimately makes it harder for them to choose. Making it easier for the user ensures user satisfaction and improved user engagement.</p>
                 </div>
                 <div className='case-study-content-inner'>
-                    <p className='text__subheading-semi-bold'>Coming up with new ideas can lead to an improved innovative solution</p>
-                    <p  className='text__content'>It can be tempting to make designs similar to existing solutions, but every great existing designs has potential for improvement too. Trying to come up with new solutions can lead to new ways of solving problems and different opportunities to try and improve user experience.</p>
+                    <p className='text__subheading-semi-bold'>More rounds of iteration = More improvement</p>
+                    <p  className='text__content'>By being focused on crafting a better solution and by not being too attached to my drafts, I was able to continously iterate and refine my designs and create better solutions</p>
                 </div>
             </div>
             <hr/>

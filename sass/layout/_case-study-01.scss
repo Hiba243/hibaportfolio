@@ -79,3 +79,51 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     height: 1000px;
 }
+.img-competetive{
+    width: 250px;
+    height: 50px;
+    @include respond(tab-port){
+        width: fit-content;
+        height: fit-content;
+    }
+}
+.lofiwireflex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8rem;
+}
+.col-width-half{
+    width: 50%;
+    @include respond(tab-port){
+        width: 100%;
+    }
+}
+.imp-img{
+    max-width: 75%;
+}
+.impimg-3{
+    max-width: 25%;
+    &-align{
+        text-align:right;
+        @include respond(tab-port){
+            text-align: center;
+        }
+    }
+}
+.imp-flex{
+display: flex;
+flex-direction: column;
+row-gap: 5rem;
+}
+.hifi-img{
+    max-width: 100%;
+}
+.hifi-btn{
+    justify-content: center;
+}
+.hifi-proto-img{
+    max-width: 75%;
+}
+.section-padding-min{
+    padding: 5rem;
+}
