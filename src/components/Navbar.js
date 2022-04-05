@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-
+import Resume from '../assets/Hiba_Resume.pdf'
 const Navbar = () => {
 
   const refHamburger = useRef();
@@ -50,9 +50,9 @@ const Navbar = () => {
             ></Link>
           </li>
           <li className="nav__item">
-          <Link to="/contact"><p  className="nav__link link-effect" onClick={closeMenu}
-            >Resume</p
-            ></Link>
+          <a href={Resume} download="Hiba_Resume" target='_blank'>
+          <p  className="nav__link link-effect" onClick={closeMenu}>Resume</p>
+            </a>
           </li>
         </ul>
         <div className="hamburger" ref={refHamburger} onClick={mobileMenu}>
