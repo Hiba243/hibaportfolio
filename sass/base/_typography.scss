@@ -83,6 +83,11 @@ body {
   }
 
 }
+.col-flex-imp{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+}
 .figmabutton{
   border: 1px solid ;
   border-radius: 10px;
@@ -97,6 +102,9 @@ body {
   background-color: #FFE45E;
   padding: 1.5rem;
   width: fit-content;
+}
+.btn-brown{
+  background-color: rgba(101,71,27,0.5);
 }
 .ctabutton{
   border: 1px solid ;

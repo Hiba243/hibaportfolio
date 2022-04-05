@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-
+import HeroImg from '../images/case-study-01-banner-img.png'
+import MuseumMockup from '../images/museummockup.png';
 const Projects = () => {
 
     return <div>
@@ -8,7 +9,7 @@ const Projects = () => {
                 My Work
             </div>
             <div className="project bg-yellow">
-                <div className="project__img">&nbsp;</div>
+                <div className="project__img"><img src={HeroImg ? HeroImg : ''} className='responsive-img home-img-1' alt="home-pg"></img></div>
                 <div className="project__desc">
                     <div className="project__desc-content">
                         <div>
@@ -26,20 +27,20 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project bg-brown">
-                <div className="project__img">&nbsp;</div>
+            <img src={MuseumMockup ? MuseumMockup : ''} className='responsive-img home-img-2' alt="home-pg"></img>
                 <div className="project__desc">
                     <div className="project__desc-content">
                         <div>
-                            <p className="text__content">VirtualArt</p>
+                            <p className="text__content">DiscoverMuseum</p>
                         </div>
                         <p className="text__subheading">How can we have the experience of visiting a museum from our home?</p>
                         <div>
                             <p className="text__content">UI/UX design of responsive website</p>
-                            <p className="text__content">Web application development using React</p>
+                            <p className="text__content">Web application development</p>
                         </div>
                         <div className="project__link">
-                            <Link to="/projects/p1"><p className="text__content text-underline text-underline-brown">View case study &rarr;</p>   </Link>
-                            <Link to="/projects/p1"><p className="text__content text-underline text-underline-brown">View demo &rarr;</p>   </Link>
+                            <Link to="/casestudy02"><p className="text__content text-underline text-underline-brown">View case study &rarr;</p>   </Link>
+                            <a href="https://www.figma.com/proto/sDNEvslCKMhUd1FOx6ZyAw/DiscoverMuseum---Hiba?node-id=61%3A326&scaling=contain&page-id=61%3A315&starting-point-node-id=61%3A326&show-proto-sidebar=1"><p className="text__content text-underline text-underline-brown">View demo &rarr;</p>   </a>
                         </div>
                     </div>
                 </div>

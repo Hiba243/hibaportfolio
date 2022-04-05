@@ -207,6 +207,11 @@ body {
       row-gap: 2rem;
       align-items: flex-start; } }
 
+.col-flex-imp {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem; }
+
 .figmabutton {
   border: 1px solid;
   border-radius: 10px;
@@ -221,6 +226,9 @@ body {
   background-color: #FFE45E;
   padding: 1.5rem;
   width: fit-content; }
+
+.btn-brown {
+  background-color: rgba(101, 71, 27, 0.5); }
 
 .ctabutton {
   border: 1px solid;
@@ -434,14 +442,10 @@ body {
       row-gap: 3rem;
       justify-content: space-between; } }
   .project__img {
-    background-color: #0c0c0c;
-    width: 500px;
-    height: 500px; }
+    text-align: center; }
     @media only screen and (max-width: 60em) {
       .project__img {
-        width: 200px;
-        height: 100px;
-        align-self: center; } }
+        margin: auto; } }
   .project__desc {
     width: 40%; }
     @media only screen and (max-width: 60em) {
@@ -487,6 +491,23 @@ hr {
 
 .bg-brown {
   background-color: rgba(101, 71, 27, 0.14); }
+
+.museum-mockup {
+  margin: auto; }
+  @media only screen and (max-width: 60em) {
+    .museum-mockup {
+      max-width: 50%; } }
+
+.home-img-1 {
+  max-width: 60%; }
+
+.home-img-2 {
+  max-width: 50% !important;
+  height: max-content !important;
+  margin: auto; }
+  @media only screen and (max-width: 60em) {
+    .home-img-2 {
+      margin: auto; } }
 
 .section-about {
   display: flex;
@@ -713,3 +734,9 @@ hr {
 
 .section-padding-min {
   padding: 5rem; }
+
+.max-width {
+  max-width: 80%; }
+
+.max-width-2 {
+  max-width: 100%; }

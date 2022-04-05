@@ -36,7 +36,7 @@ export default function Project1() {
                     </div>
                     <div className='banner-logo-flex'>
                         <span className='logo-size material-icons'>account_circle</span>
-                        <p className='text__content'>Project for Google UX Design Certificate</p>
+                        <p className='text__content'>UI/UX Designer</p>
                     </div>
                     <div className='banner-btn'>
                     <a className="text__content case-study-btn" href="https://www.figma.com/proto/GE3ZC1BWbiWABLVG1XQXGw/CraveFood-Design-File---Hiba?node-id=252%3A1983&scaling=scale-down&page-id=252%3A1982&starting-point-node-id=252%3A1983" target="_blank">View Prototype &rarr;</a>

@@ -12,6 +12,7 @@ import {
 import About from "./components/About";
 import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrollToTop";
+import Project2 from "./components/Project2";
 
 function App() {
   return <Router>
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route exact path="/casestudy01">
           <Project1 />
+        </Route>
+        <Route exact path="/casestudy02">
+          <Project2/>
         </Route>
         <Route component={Error} />
       </Switch>

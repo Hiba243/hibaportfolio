@@ -32,13 +32,9 @@
     justify-content: space-between;
   }
   &__img {
-    background-color: $color-secondary;
-    width: 500px;
-    height: 500px;
+    text-align: center;
     @include respond(tab-port) {
-      width: 200px;
-    height: 100px;
-    align-self: center;
+        margin: auto;
     }
   }
   &__desc {
@@ -93,4 +89,21 @@ background-color: rgba(253,255,182,0.36);
 }
 .bg-brown{
   background-color: rgba(101,71,27,0.14);
+}
+.museum-mockup{
+  margin: auto;
+  @include respond(tab-port) {
+  max-width: 50%;
+  }
+}
+.home-img-1{
+  max-width: 60%;
+}
+.home-img-2{
+  max-width: 50% !important;
+  height: max-content !important;
+  margin: auto;
+  @include respond(tab-port) {
+    margin: auto;
+    }
 }
