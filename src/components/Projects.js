@@ -40,7 +40,7 @@ const Projects = () => {
                         </div>
                         <div className="project__link">
                             <Link to="/casestudy02"><p className="text__content text-underline text-underline-brown">View case study &rarr;</p>   </Link>
-                            <a href="https://www.figma.com/proto/sDNEvslCKMhUd1FOx6ZyAw/DiscoverMuseum---Hiba?node-id=61%3A326&scaling=contain&page-id=61%3A315&starting-point-node-id=61%3A326&show-proto-sidebar=1"><p className="text__content text-underline text-underline-brown">View demo &rarr;</p>   </a>
+                            <a href="https://discovermuseum.netlify.app/" target="_blank"><p className="text__content text-underline text-underline-brown">View Website &rarr;</p>   </a>
                         </div>
                     </div>
                 </div>
