@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <header className="navbar-padding">
       <nav className="navbar-content">
-        <Link to="/"><p className="nav__logo">Portfolio 2022</p></Link>
+        <Link to="/"><p className="nav__logo">Portfolio</p></Link>
         <ul className="nav__menu" ref={refNavMenu}>
         <li className="nav__item">
           <Link to="/#work"><p className="nav__link link-effect" onClick={closeMenu}>Work</p></Link>
@@ -46,11 +46,11 @@ const Navbar = () => {
           </li>
           <li className="nav__item">
           <Link to="/#contact"><p  className="nav__link link-effect" onClick={closeMenu}
-            >Get In Touch</p
+            >Contact</p
             ></Link>
           </li>
           <li className="nav__item">
-          <a href={Resume} download="Hiba_Resume" target='_blank'>
+          <a href={Resume} download="Hiba_Resume" target='_blank' rel="noreferrer">
           <p  className="nav__link link-effect" onClick={closeMenu}>Resume</p>
             </a>
           </li>

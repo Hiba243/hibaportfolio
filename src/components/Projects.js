@@ -20,8 +20,8 @@ const Projects = () => {
                             <p className="text__content">UI/UX design of mobile app</p>
                         </div>
                         <div className="project__link">
-                            <Link to="/casestudy01"><p className="text__content text-underline text-underline-yellow">View case study &rarr;</p>   </Link>
-                            <a className="text__content text-underline text-underline-yellow" href="https://www.figma.com/proto/GE3ZC1BWbiWABLVG1XQXGw/CraveFood-Design-File---Hiba?node-id=252%3A1983&scaling=scale-down&page-id=252%3A1982&starting-point-node-id=252%3A1983" target="_blank">View Prototype &rarr;</a>
+                            <Link to="/casestudy01"><p className="text__content text-underline text-underline-yellow">View Case Study &rarr;</p>   </Link>
+                            <a className="text__content text-underline text-underline-yellow" href="https://www.figma.com/proto/GE3ZC1BWbiWABLVG1XQXGw/CraveFood-Design-File---Hiba?node-id=252%3A1983&scaling=scale-down&page-id=252%3A1982&starting-point-node-id=252%3A1983" rel="noreferrer" target="_blank">View Prototype &rarr;</a>
                         </div>
                     </div>
                 </div>
@@ -39,8 +39,8 @@ const Projects = () => {
                             <p className="text__content">Web application development</p>
                         </div>
                         <div className="project__link">
-                            <Link to="/casestudy02"><p className="text__content text-underline text-underline-brown">View case study &rarr;</p>   </Link>
-                            <a href="https://discovermuseum.netlify.app/" target="_blank"><p className="text__content text-underline text-underline-brown">View Website &rarr;</p>   </a>
+                            <Link to="/casestudy02"><p className="text__content text-underline text-underline-brown">View Case Study &rarr;</p>   </Link>
+                            <a href="https://discovermuseum.netlify.app/" target="_blank" rel="noreferrer"><p className="text__content text-underline text-underline-brown">View Website &rarr;</p>   </a>
                         </div>
                     </div>
                 </div>

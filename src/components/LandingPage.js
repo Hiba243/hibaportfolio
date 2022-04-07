@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const LandingPage = () => {
     return (
@@ -7,12 +6,12 @@ const LandingPage = () => {
             <section className="section-padding landing-page-flex">
                 <div>
                     <p className="text__bigheading font-accent">Hello, I’m Hiba Fatima</p>
-                    <p className="text__bigheading landing-page-underline font-accent">a UI/UX enthusiast and a Web Developer</p>
+                    <p className="text__bigheading landing-page-underline font-accent">a UI/UX Designer & Front-end Web Developer</p>
                 </div>
-                <div>
+                
                     <p className="text__content">By day I build web applications at Deloitte, by night I’m exploring the world of UI/UX</p>
-                    <p className="text__content">I’m passionate about designing digital products by focusing on the user’s wellbeing through good UI/UX design</p>
-                </div>
+                    <p className="text__content">I’m passionate about designing great user experience for digital products while caring about the impact technology has on our lives.</p>
+                
 
                 <a href="#work"><p className="text__content button-underline ctabutton">View my work &darr;</p></a>
             </section>

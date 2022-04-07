@@ -1,19 +1,7 @@
-import { CopyToClipboard } from 'react-copy-to-clipboard';
-import Tooltip from "@material-ui/core/Tooltip";
-import { withStyles } from '@material-ui/core/styles';
-import React, { useState } from "react";
-const LightTooltip = withStyles((theme) => ({
-    tooltip: {
-        backgroundColor: theme.palette.common.white,
-        color: 'rgba(0, 0, 0, 0.87)',
-        boxShadow: theme.shadows[1],
-        fontSize: 20,
-    },
-}))(Tooltip);
+import React from "react";
+
 
 const Contact = () => {
-
-    const [copiedText, setCopiedText] = useState();
 
     return <div>
 
@@ -25,24 +13,7 @@ const Contact = () => {
                     Want to work together?</p>
                 <div>
                     <p className="text__subheading align-center">
-                        Drop me an email</p>
-
-                    <CopyToClipboard
-                        text={"hibafatima24@gmail.com"}
-                        onCopy={() => setCopiedText("hibafatima24@gmail.com")}
-                    >
-                        <LightTooltip
-                            title={
-                                copiedText === "hibafatima24@gmail.com"
-                                    ? "✔ Copied to clipboard"
-                                    : "Click to copy"
-                            }
-                            placement="top"
-                            onClose={() => setCopiedText("")}
-                        >
-                            <p className="copy-click text__subheading align-center">hibafatima24@gmail.com</p>
-                        </LightTooltip>
-                    </CopyToClipboard>
+                        Drop me an email: hibafatima24@gmail.com</p> 
                 </div>
             </div>
         </div>

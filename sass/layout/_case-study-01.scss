@@ -48,11 +48,10 @@
     column-gap: 2rem;
 }
 .responsive-img{
-    width: 100%;
-    max-width: 50%;
-    height: auto;
+    width: 50%;
+    // max-width: 50%;
     @include respond(tab-port) {
-        max-width: 30%;
+        // max-width: 30%;
     }
 }
 .underlined{
@@ -99,10 +98,10 @@
     }
 }
 .imp-img{
-    max-width: 75%;
+    width: 100%;
 }
 .impimg-3{
-    max-width: 25%;
+    width: 50%;
     &-align{
         text-align:right;
         @include respond(tab-port){
@@ -116,20 +115,20 @@ flex-direction: column;
 row-gap: 5rem;
 }
 .hifi-img{
-    max-width: 100%;
+    width: 100%;
 }
 .hifi-btn{
     justify-content: center;
 }
 .hifi-proto-img{
-    max-width: 75%;
+    width: 75%;
 }
 .section-padding-min{
     padding: 5rem;
 }
 .max-width{
-    max-width: 80%;
+    width: 100%;
 }
 .max-width-2{
-    max-width: 100%;
+    width: 100%;
 }

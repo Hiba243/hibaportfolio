@@ -93,17 +93,19 @@ background-color: rgba(253,255,182,0.36);
 .museum-mockup{
   margin: auto;
   @include respond(tab-port) {
-  max-width: 50%;
+  width: 50%;
   }
 }
 .home-img-1{
-  max-width: 60%;
+  width: 60%;
 }
 .home-img-2{
-  max-width: 50% !important;
-  height: max-content !important;
+  width: 50% !important;
   margin: auto;
   @include respond(tab-port) {
     margin: auto;
     }
+}
+.width-80-img{
+  width: 80% !important;
 }

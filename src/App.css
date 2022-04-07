@@ -496,18 +496,20 @@ hr {
   margin: auto; }
   @media only screen and (max-width: 60em) {
     .museum-mockup {
-      max-width: 50%; } }
+      width: 50%; } }
 
 .home-img-1 {
-  max-width: 60%; }
+  width: 60%; }
 
 .home-img-2 {
-  max-width: 50% !important;
-  height: max-content !important;
+  width: 50% !important;
   margin: auto; }
   @media only screen and (max-width: 60em) {
     .home-img-2 {
       margin: auto; } }
+
+.width-80-img {
+  width: 80% !important; }
 
 .section-about {
   display: flex;
@@ -657,12 +659,7 @@ hr {
   column-gap: 2rem; }
 
 .responsive-img {
-  width: 100%;
-  max-width: 50%;
-  height: auto; }
-  @media only screen and (max-width: 60em) {
-    .responsive-img {
-      max-width: 30%; } }
+  width: 50%; }
 
 .underlined {
   text-decoration: underline;
@@ -708,10 +705,10 @@ hr {
       width: 100%; } }
 
 .imp-img {
-  max-width: 75%; }
+  width: 100%; }
 
 .impimg-3 {
-  max-width: 25%; }
+  width: 50%; }
   .impimg-3-align {
     text-align: right; }
     @media only screen and (max-width: 60em) {
@@ -724,19 +721,19 @@ hr {
   row-gap: 5rem; }
 
 .hifi-img {
-  max-width: 100%; }
+  width: 100%; }
 
 .hifi-btn {
   justify-content: center; }
 
 .hifi-proto-img {
-  max-width: 75%; }
+  width: 75%; }
 
 .section-padding-min {
   padding: 5rem; }
 
 .max-width {
-  max-width: 80%; }
+  width: 100%; }
 
 .max-width-2 {
-  max-width: 100%; }
+  width: 100%; }
