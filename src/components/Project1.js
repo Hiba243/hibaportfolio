@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar';
 import Footer from './Footer';
-import HeroImg from '../images/case-study-01-banner-img.png'
+import HeroImg from '../images/case-study-01-banner-img.svg'
 import Persona from '../images/persona.png'
 import Journey from '../images/user-journey-map.png'
 import Affinity from '../images/affinity.png'
@@ -12,7 +12,7 @@ import LowFiPrototype from '../images/lofiproto.png'
 import Improvement1 from '../images/imp1.png'
 import Improvement2 from '../images/imp2.png'
 import Improvement3 from '../images/imp3.png'
-import HighFiWireframe from '../images/hifi.png'
+import HighFiWireframe from '../images/hifi.svg'
 import HighFiPrototype from '../images/hifiproto.png'
 import Sticker from '../images/sticker.png'
 import Solution1 from '../images/filter2.png'

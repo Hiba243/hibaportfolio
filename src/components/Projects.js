@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import HeroImg from '../images/case-study-01-banner-img.png'
-import MuseumMockup from '../images/museummockup.png';
+import HeroImg from '../images/case-study-01-banner-img.svg'
+import MuseumMockup from '../images/museummockup.svg';
 const Projects = () => {
 
     return <div>

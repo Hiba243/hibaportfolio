@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from './Navbar';
 import Footer from './Footer';
-import MuseumMockup from '../images/museummockup.png'
-import LowFiWireframe from '../images/museum-lofi-mobile.png'
-import LowFiPrototype from '../images/museum-lofi-desktop.png'
+import MuseumMockup from '../images/museummockup.svg'
+import LowFiWireframe from '../images/museum-lofi-mobile.svg'
+import LowFiPrototype from '../images/museum-lofi-desktop.svg'
 import Improvement1 from '../images/museum-imp1.png'
 import HighFiWireframe from '../images/museum-hifi-mobile.png'
 import HighFiPrototype from '../images/museum-hifi-desktop.png'
@@ -28,7 +28,7 @@ export default function Project2() {
                         <p className='text__content'>UI/UX Designer and Web Developer</p>
                     </div>
                     <div className='banner-btn'>
-                    <a className="text__content case-study-btn btn-brown" href="https://www.figma.com/file/sDNEvslCKMhUd1FOx6ZyAw/DiscoverMuseum---Hiba?node-id=101%3A216" target="_blank" rel="noreferrer">View Design File &rarr;</a>
+                        <a className="text__content case-study-btn btn-brown" href="https://www.figma.com/file/sDNEvslCKMhUd1FOx6ZyAw/DiscoverMuseum---Hiba?node-id=101%3A216" target="_blank" rel="noreferrer">View Design File &rarr;</a>
                         <a className="text__content case-study-btn btn-brown" href="https://discovermuseum.netlify.app/" target="_blank" rel="noreferrer">View Live Website &rarr;</a>
                     </div>
                 </div>
@@ -162,8 +162,8 @@ export default function Project2() {
                     <p className='text__content'>I connected the screens of high fidelity mockups and added dissolve animation on each page transition for a more delicate and enjoyable user exeperience.</p>
                 </div>
                 <div className='banner-btn hifi-btn'>
-                <a className="text__content case-study-btn btn-brown" href="https://www.figma.com/proto/sDNEvslCKMhUd1FOx6ZyAw/DiscoverMuseum---Hiba?node-id=61%3A326&scaling=contain&page-id=61%3A315&starting-point-node-id=61%3A326&show-proto-sidebar=1" target="_blank" rel="noreferrer">View Prototype &rarr;</a>
-                <a className="text__content case-study-btn btn-brown" href="https://www.figma.com/file/sDNEvslCKMhUd1FOx6ZyAw/DiscoverMuseum---Hiba?node-id=101%3A216" target="_blank" rel="noreferrer">View Design File &rarr;</a>
+                    <a className="text__content case-study-btn btn-brown" href="https://www.figma.com/proto/sDNEvslCKMhUd1FOx6ZyAw/DiscoverMuseum---Hiba?node-id=61%3A326&scaling=contain&page-id=61%3A315&starting-point-node-id=61%3A326&show-proto-sidebar=1" target="_blank" rel="noreferrer">View Prototype &rarr;</a>
+                    <a className="text__content case-study-btn btn-brown" href="https://www.figma.com/file/sDNEvslCKMhUd1FOx6ZyAw/DiscoverMuseum---Hiba?node-id=101%3A216" target="_blank" rel="noreferrer">View Design File &rarr;</a>
                 </div>
                 <div className='case-study-banner-image-center section-padding'>
                     <img src={HighFiWireframe ? HighFiWireframe : ''} className='responsive-img hifi-img' alt="home-pg"></img>
@@ -192,7 +192,7 @@ export default function Project2() {
                             <img src={Solution2 ? Solution2 : ''} className='responsive-img imp-img' alt="home-pg"></img>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <hr />
@@ -202,10 +202,10 @@ export default function Project2() {
             <div className='section-padding case-study-content'>
                 <div className='case-study-content-inner'>
                     <ul className='ul-style'>
-                    <li className='text__content'>I developed the front-end of the web application using React and utilized the Met Collection API for fetching the data of Metropolitan Museum</li>
-                    <li className='text__content'>With the help of react-gallery-carousel, I created the image carousel</li>
-                    <li className='text__content'>Using HTML, CSS and Sass I create a responsive design for the web application</li>
-                    <li className='text__content'>I used React-router for connecting the pages and added CSSTransition animations on each page transition for a smoother experience</li>
+                        <li className='text__content'>I developed the front-end of the web application using React and utilized the Met Collection API for fetching the data of Metropolitan Museum</li>
+                        <li className='text__content'>With the help of react-gallery-carousel, I created the image carousel</li>
+                        <li className='text__content'>Using HTML, CSS and Sass I create a responsive design for the web application</li>
+                        <li className='text__content'>I used React-router for connecting the pages and added CSSTransition animations on each page transition for a smoother experience</li>
                     </ul>
                 </div>
                 <a className="text__content case-study-btn btn-brown" href="https://discovermuseum.netlify.app/" rel="noreferrer" target="_blank">View Live Website &rarr;</a>
