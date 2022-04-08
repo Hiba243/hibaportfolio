@@ -20,7 +20,8 @@
       padding: 0;
       border-right: none;
       border-bottom: none;
-      row-gap: 3rem;
+      row-gap: 5rem;
+      margin: 3rem 0;
     }
     @include respond(tab-land) {
       width: 100%;

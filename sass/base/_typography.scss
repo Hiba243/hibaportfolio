@@ -55,7 +55,7 @@ body {
   margin: 10rem 8rem;
 
   @include respond(phone) {
-    margin: 3rem;
+    margin: 5rem 3rem;
   }
   
 }
@@ -78,7 +78,7 @@ body {
   @include respond(tab-land) {
   margin-left: 0;
   flex-direction: column;
-  row-gap: 2rem;
+  row-gap: 4rem;
   align-items: flex-start;
   }
 

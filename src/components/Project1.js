@@ -1,25 +1,25 @@
 import React from 'react'
 import Navbar from './Navbar';
 import Footer from './Footer';
-import HeroImg from '../images/case-study-01-banner-img.svg'
-import Persona from '../images/persona.png'
-import Journey from '../images/user-journey-map.png'
-import Affinity from '../images/affinity.png'
-import Competetive from '../images/competetive.png'
-import UserFlow from '../images/userflow.png'
-import LowFiWireframe from '../images/lofiwire.png'
-import LowFiPrototype from '../images/lofiproto.png'
-import Improvement1 from '../images/imp1.png'
-import Improvement2 from '../images/imp2.png'
-import Improvement3 from '../images/imp3.png'
-import HighFiWireframe from '../images/hifi.svg'
-import HighFiPrototype from '../images/hifiproto.png'
-import Sticker from '../images/sticker.png'
-import Solution1 from '../images/filter2.png'
-import Solution2 from '../images/filter.png'
-import Solution3 from '../images/fooddesc.png'
-import Solution4 from '../images/sol1.png'
-import Solution5 from '../images/cart.png'
+import HeroImg from '../images/cravefood-main-mockup.svg'
+import Persona from '../images/cravefood-persona.png'
+import Journey from '../images/cravefood-user-journey-map.png'
+import Affinity from '../images/cravefood-affinity-diagram.png'
+import Competetive from '../images/cravefood-competetive-products.png'
+import UserFlow from '../images/cravefood-userflow.png'
+import LowFiWireframe from '../images/cravefood-lofi-wireframe.png'
+import LowFiPrototype from '../images/cravefood-lofi-prototype.png'
+import Improvement1 from '../images/cravefood-improvement1.png'
+import Improvement2 from '../images/cravefood-improvement2.png'
+import Improvement3 from '../images/cravefood-improvement3.png'
+import HighFiWireframe from '../images/cravefood-hifi-mockups.svg'
+import HighFiPrototype from '../images/cravefood-hifi-prototype.png'
+import Sticker from '../images/cravefood-sticker-sheet.png'
+import Solution1 from '../images/cravefood-filter-step1.png'
+import Solution2 from '../images/cravefood-filter-step2.png'
+import Solution3 from '../images/cravefood-food-description.png'
+import Solution4 from '../images/cravefood-homepage.png'
+import Solution5 from '../images/cravefood-cart.png'
 
 export default function Project1() {
     return (
@@ -44,7 +44,7 @@ export default function Project1() {
                     </div>
                 </div>
                 <div className='case-study-banner-image-center'>
-                    <img src={HeroImg ? HeroImg : ''} className='responsive-img' alt="home-pg"></img>
+                    <img src={HeroImg ? HeroImg : ''} className='responsive-img' alt="cravefood main mockup"></img>
                 </div>
             </div>
             <div className='section-padding'>
@@ -95,17 +95,17 @@ export default function Project1() {
                     <p className='text__subheading-semi-bold'>Persona of a user using food ordering app</p>
                     <p className='text__content'>I created personas to represent the primary user group of food ordering apps.</p>
                     <div className='case-study-banner-image-center'>
-                        <img src={Persona ? Persona : ''} className='responsive-img width-80-img' alt="home-pg"></img>
+                        <img src={Persona ? Persona : ''} className='responsive-img width-50-img' alt="cravefood persona"></img>
                     </div>
                     <p className='text__subheading-semi-bold'>User journey map</p>
                     <p className='text__content'>I mapped out user's journey on a food ordering app to identify at which steps users face difficulties.</p>
                     <div className='case-study-banner-image-center'>
-                        <img src={Journey ? Journey : ''} className='responsive-img width-80-img' alt="home-pg"></img>
+                        <img src={Journey ? Journey : ''} className='responsive-img width-80-img' alt="cravefood user journey map"></img>
                     </div>
                     <p className='text__subheading-semi-bold'>Affinity diagram</p>
                     <p className='text__content'>I summarized the findings from user interviews into an affinity diagram as well.</p>
                     <div className='case-study-banner-image-center'>
-                        <img src={Affinity ? Affinity : ''} className='responsive-img' alt="home-pg"></img>
+                        <img src={Affinity ? Affinity : ''} className='responsive-img' alt="cravefood affinity diagram"></img>
                     </div>
                 </div>
             </div>
@@ -114,7 +114,7 @@ export default function Project1() {
                 <p className='text__subheading-bold'>Competing app’s offered a traditional filter which wasn't much useful</p>
                 <p className='text__content'>I analyzed popular food ordering apps and found that most of them presented an overload of information and choice to the users. The only thing they offered to help users to make decision more easily was a traditional filter button, which wasn’t doing much help. Improving the filter functionality became my opportunity for the solution.</p>
                 <div className='case-study-banner-image-center'>
-                    <img src={Competetive ? Competetive : ''} className='responsive-img img-competetive' alt="home-pg"></img>
+                    <img src={Competetive ? Competetive : ''} className='competetive-img' alt="cravefood's competetive products"></img>
                 </div>
             </div>
             <hr />
@@ -159,7 +159,7 @@ export default function Project1() {
                 <p className='text__subheading-bold'>Constructing the user flow of my solution</p>
                 <p className='text__content'>I constructed a user flow of a basic start to finish journey of ordering a food on a food ordering app and also incorporated my key solution i.e. a two step filter</p>
                 <div className='case-study-banner-image-center'>
-                    <img src={UserFlow ? UserFlow : ''} className='responsive-img' alt="home-pg"></img>
+                    <img src={UserFlow ? UserFlow : ''} className='responsive-img' alt="cravefood userflow"></img>
                 </div>
             </div>
             <div className='section-padding case-study-content' id="lowfidelity">
@@ -168,10 +168,10 @@ export default function Project1() {
                 <p className='text__content'>I started drawing up low-fidelity wireframes on figma to finalize the layout of each screen before moving to visuals details such as colors and fonts. I then connected the screens to create a working low-fidelity prototype.</p>
                 <div className='lofiwireflex'>
                     <div className='case-study-banner-image-center'>
-                        <img src={LowFiWireframe ? LowFiWireframe : ''} className='responsive-img width-80-img' alt="home-pg"></img>
+                        <img src={LowFiWireframe ? LowFiWireframe : ''} className='responsive-img width-80-img' alt="cravefood low fidelity wireframes"></img>
                     </div>
                     <div className='case-study-banner-image-center'>
-                        <img src={LowFiPrototype ? LowFiPrototype : ''} className='responsive-img' alt="home-pg"></img>
+                        <img src={LowFiPrototype ? LowFiPrototype : ''} className='responsive-img' alt="cravefood low fidelity prototype"></img>
                     </div>
                 </div>
             </div>
@@ -199,7 +199,7 @@ export default function Project1() {
                         </ul>
                     </div>
                     <div className='case-study-banner-image col-width-half'>
-                        <img src={Improvement1 ? Improvement1 : ''} className='responsive-img imp-img' alt="home-pg"></img>
+                        <img src={Improvement1 ? Improvement1 : ''} className='responsive-img imp-img' alt="cravefood improvement 1"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
@@ -211,7 +211,7 @@ export default function Project1() {
                         </ul>
                     </div>
                     <div className='case-study-banner-image col-width-half'>
-                        <img src={Improvement2 ? Improvement2 : ''} className='responsive-img imp-img' alt="home-pg"></img>
+                        <img src={Improvement2 ? Improvement2 : ''} className='responsive-img imp-img' alt="cravefood improvement 2"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
@@ -223,7 +223,7 @@ export default function Project1() {
                         </ul>
                     </div>
                     <div className='case-study-banner-image col-width-half impimg-3-align'>
-                        <img src={Improvement3 ? Improvement3 : ''} className='responsive-img impimg-3' alt="home-pg"></img>
+                        <img src={Improvement3 ? Improvement3 : ''} className='responsive-img impimg-3' alt="cravefood improvement 3"></img>
                     </div>
                 </div>
                 </div>
@@ -247,11 +247,11 @@ export default function Project1() {
                     <a className="text__content case-study-btn" href="https://www.figma.com/proto/GE3ZC1BWbiWABLVG1XQXGw/CraveFood-Design-File---Hiba?node-id=252%3A1983&scaling=scale-down&page-id=252%3A1982&starting-point-node-id=252%3A1983" target="_blank" rel="noreferrer">View Prototype &rarr;</a>
                     <a className="text__content case-study-btn" href="https://www.figma.com/file/GE3ZC1BWbiWABLVG1XQXGw/CraveFood-Design-File---Hiba?node-id=331%3A787" target="_blank" rel="noreferrer">View Design File &rarr;</a>
                     </div>
-                    <div className='case-study-banner-image-center section-padding'>
-                        <img src={HighFiWireframe ? HighFiWireframe : ''} className='responsive-img hifi-img' alt="home-pg"></img>
+                    <div className='case-study-banner-image-center'>
+                        <img src={HighFiWireframe ? HighFiWireframe : ''} className='responsive-img hifi-img' alt="cravefood high fidelity wireframes"></img>
                     </div>
                     <div className='case-study-banner-image-center'>
-                        <img src={HighFiPrototype ? HighFiPrototype : ''} className='responsive-img hifi-proto-img' alt="home-pg"></img>
+                        <img src={HighFiPrototype ? HighFiPrototype : ''} className='responsive-img hifi-proto-img' alt="cravefood high fidelity prototype"></img>
                     </div>
                 </div>
                 <div className='section-padding case-study-content'>
@@ -262,7 +262,7 @@ export default function Project1() {
                 </div>
                 
                 <div className='case-study-banner-image-center section-padding-min'>
-                        <img src={Sticker ? Sticker : ''} className='responsive-img imp-img' alt="home-pg"></img>
+                        <img src={Sticker ? Sticker : ''} className='responsive-img imp-img' alt="cravefood sticker sheet"></img>
                     </div>
                 </div>
                 <div className='section-padding case-study-content'>
@@ -274,7 +274,7 @@ export default function Project1() {
                         <p className='text__subheading-small'>Included a two step filter at the home page to get user’s search criteria upfront and only display food which matches with user’s search criteria</p>
                     </div>
                     <div className='case-study-banner-image col-width-half'>
-                        <img src={Solution1 ? Solution1 : ''} className='responsive-img imp-img' alt="home-pg"></img>
+                        <img src={Solution1 ? Solution1 : ''} className='responsive-img impimg-3' alt="cravefood solution 1"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
@@ -283,7 +283,7 @@ export default function Project1() {
 
                     </div>
                     <div className='case-study-banner-image col-width-half impimg-3-align' >
-                        <img src={Solution2 ? Solution2 : ''} className='responsive-img impimg-3' alt="home-pg"></img>
+                        <img src={Solution2 ? Solution2 : ''} className='responsive-img impimg-3' alt="cravefood solution 2"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
@@ -291,7 +291,7 @@ export default function Project1() {
                         <p className='text__subheading-small'>Included image and tags for each food item to provide users more information on whether a food item matches with user’s criteria</p>
                     </div>
                     <div className='case-study-banner-image col-width-half impimg-3-align'>
-                        <img src={Solution3 ? Solution3 : ''} className='responsive-img impimg-3' alt="home-pg"></img>
+                        <img src={Solution3 ? Solution3 : ''} className='responsive-img impimg-3' alt="cravefood solution 3"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
@@ -300,7 +300,7 @@ export default function Project1() {
 
                     </div>
                     <div className='case-study-banner-image col-width-half impimg-3-align'>
-                        <img src={Solution4 ? Solution4 : ''} className='responsive-img impimg-3' alt="home-pg"></img>
+                        <img src={Solution4 ? Solution4 : ''} className='responsive-img impimg-3' alt="cravefood solution 4"></img>
                     </div>
                 </div>
                 <div className='row-flex'>
@@ -308,7 +308,7 @@ export default function Project1() {
                         <p className='text__subheading-small'>Used color coding and whitespace to better organize content on screen</p>
                     </div>
                     <div className='case-study-banner-image col-width-half impimg-3-align'>
-                        <img src={Solution5 ? Solution5 : ''} className='responsive-img impimg-3' alt="home-pg"></img>
+                        <img src={Solution5 ? Solution5 : ''} className='responsive-img impimg-3' alt="cravefood solution 5"></img>
                     </div>
                 </div>
                 </div>

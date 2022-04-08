@@ -1,6 +1,8 @@
 import { useRef } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import Resume from '../assets/Hiba_Resume.pdf'
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 const Navbar = () => {
 
   const refHamburger = useRef();
@@ -35,7 +37,7 @@ const Navbar = () => {
   return (
     <header className="navbar-padding">
       <nav className="navbar-content">
-        <Link to="/"><p className="nav__logo">Portfolio</p></Link>
+      <Link to="/"><p className="nav__logo">Portfolio</p></Link>
         <ul className="nav__menu" ref={refNavMenu}>
         <li className="nav__item">
           <Link to="/#work"><p className="nav__link link-effect" onClick={closeMenu}>Work</p></Link>
@@ -50,7 +52,7 @@ const Navbar = () => {
             ></Link>
           </li>
           <li className="nav__item">
-          <a href={Resume} download="Hiba_Resume" target='_blank' rel="noreferrer">
+          <a href={Resume} target='_blank' rel="noreferrer">
           <p  className="nav__link link-effect" onClick={closeMenu}>Resume</p>
             </a>
           </li>

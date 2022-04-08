@@ -1,8 +1,11 @@
 import React from "react";
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 const LandingPage = () => {
     return (
         <div>
+            <ScrollAnimation animateIn="animate__fadeIn" className="animate__animated" animateOnce={true} duration={1.5}>
             <section className="section-padding landing-page-flex">
                 <div>
                     <p className="text__bigheading font-accent">Hello, I’m Hiba Fatima</p>
@@ -15,6 +18,7 @@ const LandingPage = () => {
 
                 <a href="#work"><p className="text__content button-underline ctabutton">View my work &darr;</p></a>
             </section>
+            </ScrollAnimation>
             <hr />
         </div>
     );

@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar';
 import Footer from './Footer';
-import MuseumMockup from '../images/museummockup.svg'
-import LowFiWireframe from '../images/museum-lofi-mobile.svg'
-import LowFiPrototype from '../images/museum-lofi-desktop.svg'
-import Improvement1 from '../images/museum-imp1.png'
-import HighFiWireframe from '../images/museum-hifi-mobile.png'
-import HighFiPrototype from '../images/museum-hifi-desktop.png'
-import Solution1 from '../images/museum-sol1.png'
-import Solution2 from '../images/museum-sol2.png'
+import MuseumMockup from '../images/discovermuseum-main-mockup.svg'
+import LowFiWireframe from '../images/discovermuseum-lofi-mobile.png'
+import LowFiPrototype from '../images/discovermuseum-lofi-desktop.png'
+import Improvement1 from '../images/discovermuseum-improvement.png'
+import HighFiWireframe from '../images/discovermuseum-hifi-mobile.png'
+import HighFiPrototype from '../images/discovermuseum-hifi-desktop.png'
+import Solution1 from '../images/discovermuseum-solution1.png'
+import Solution2 from '../images/discovermuseum-solution2.png'
 
 export default function Project2() {
     return (
@@ -33,7 +33,7 @@ export default function Project2() {
                     </div>
                 </div>
 
-                <img src={MuseumMockup ? MuseumMockup : ''} className='responsive-img home-img-2' alt="home-pg"></img>
+                <img src={MuseumMockup ? MuseumMockup : ''} className='responsive-img home-img-2' alt="discovermuseum main mockup"></img>
 
             </div>
             <div className='section-padding'>
@@ -91,7 +91,7 @@ export default function Project2() {
             <div className='section-padding' id="ideating">
                 <p className='text__subheading align-center'>Ideating Solutions</p>
                 <br />
-                <p className='text__content align-center'><a href='#differentapproaches' className='underlined'>Different Approaches Considered </a> | <a href='#finalizedapproach' className='underlined'> Finalized Approach</a></p>
+                <p className='text__content align-center'><a href='#differentapproaches' className='underlined'>Different Approaches Considered</a> | <a href='#finalizedapproach' className='underlined'> Finalized Approach</a></p>
             </div>
             <div className='section-padding case-study-content' id="differentapproaches">
                 <p className='text__content text-underline text-underline-brown' >Different Approaches Considered</p>
@@ -115,10 +115,10 @@ export default function Project2() {
                 <p className='text__content'>I started drawing up low-fidelity wireframes on Figma to finalize a layout which provides a smooth and easy to use user experience</p>
                 <div className='lofiwireflex'>
                     <div className='case-study-banner-image-center'>
-                        <img src={LowFiWireframe ? LowFiWireframe : ''} className="responsive-img max-width" alt="home-pg"></img>
+                        <img src={LowFiWireframe ? LowFiWireframe : ''} className="responsive-img max-width" alt="discovermuseum low fidelity wireframe 1"></img>
                     </div>
                     <div className='case-study-banner-image-center'>
-                        <img src={LowFiPrototype ? LowFiPrototype : ''} className='responsive-img max-width-2' alt="home-pg"></img>
+                        <img src={LowFiPrototype ? LowFiPrototype : ''} className='responsive-img max-width-2' alt="discovermuseum low fidelity wireframe 2"></img>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@ export default function Project2() {
                             <p className='text__content'>Since most users wanted to zoom each image of artwork, I added a zoom feature to allow users to view images which covers their device's full screen.</p>
                         </div>
                         <div className='align-center'>
-                            <img src={Improvement1 ? Improvement1 : ''} className='responsive-img max-width-2' alt="home-pg"></img>
+                            <img src={Improvement1 ? Improvement1 : ''} className='responsive-img max-width-2' alt="discovermuseum low fidelity improvement"></img>
                         </div>
                     </div>
                 </div>
@@ -166,10 +166,10 @@ export default function Project2() {
                     <a className="text__content case-study-btn btn-brown" href="https://www.figma.com/file/sDNEvslCKMhUd1FOx6ZyAw/DiscoverMuseum---Hiba?node-id=101%3A216" target="_blank" rel="noreferrer">View Design File &rarr;</a>
                 </div>
                 <div className='case-study-banner-image-center section-padding'>
-                    <img src={HighFiWireframe ? HighFiWireframe : ''} className='responsive-img hifi-img' alt="home-pg"></img>
+                    <img src={HighFiWireframe ? HighFiWireframe : ''} className='responsive-img hifi-img' alt="discovermuseum high fidelity wireframe"></img>
                 </div>
                 <div className='case-study-banner-image-center'>
-                    <img src={HighFiPrototype ? HighFiPrototype : ''} className='responsive-img max-width-2' alt="home-pg"></img>
+                    <img src={HighFiPrototype ? HighFiPrototype : ''} className='responsive-img max-width-2' alt="discovermuseum high fidelity wireframe"></img>
                 </div>
             </div>
             <div className='section-padding case-study-content'>
@@ -181,7 +181,7 @@ export default function Project2() {
                             <p className='text__subheading-small'>Provided users the ability to view art work of different departments of Metropolitan Museum of New York</p>
                         </div>
                         <div className='case-study-banner-image col-width-half'>
-                            <img src={Solution1 ? Solution1 : ''} className='responsive-img imp-img' alt="home-pg"></img>
+                            <img src={Solution1 ? Solution1 : ''} className='responsive-img imp-img' alt="discovermuseum solution 1"></img>
                         </div>
                     </div>
                     <div className='row-flex'>
@@ -189,7 +189,7 @@ export default function Project2() {
                             <p className='text__subheading-small'>Added image carousel for users to easily view all the images. Added a zoom functionality as well for providing a more immersive experience to the user</p>
                         </div>
                         <div className='case-study-banner-image col-width-half' >
-                            <img src={Solution2 ? Solution2 : ''} className='responsive-img imp-img' alt="home-pg"></img>
+                            <img src={Solution2 ? Solution2 : ''} className='responsive-img imp-img' alt="discovermuseum solution 2"></img>
                         </div>
                     </div>
 

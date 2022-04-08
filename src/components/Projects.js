@@ -1,15 +1,20 @@
 import { Link } from "react-router-dom";
-import HeroImg from '../images/case-study-01-banner-img.svg'
-import MuseumMockup from '../images/museummockup.svg';
+import HeroImg from '../images/cravefood-main-mockup.svg'
+import MuseumMockup from '../images/discovermuseum-main-mockup.svg';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
+
 const Projects = () => {
 
     return <div>
+        
         <section className="section-padding section-work" id="work">
             <div className="text__heading section-work__heading font-accent align-center">
                 My Work
             </div>
+            <ScrollAnimation animateIn="animate__fadeInUp" className="animate__animated" animateOnce={true}>
             <div className="project bg-yellow">
-                <div className="project__img"><img src={HeroImg ? HeroImg : ''} className='responsive-img home-img-1' alt="home-pg"></img></div>
+                <div className="project__img"><img src={HeroImg ? HeroImg : ''} className='responsive-img home-img-1' alt="cravefood main mockup"></img></div>
                 <div className="project__desc">
                     <div className="project__desc-content">
                         <div>
@@ -26,8 +31,10 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="animate__fadeInUp" className="animate__animated" animateOnce={true}>
             <div className="project bg-brown">
-            <img src={MuseumMockup ? MuseumMockup : ''} className='responsive-img home-img-2' alt="home-pg"></img>
+            <img src={MuseumMockup ? MuseumMockup : ''} className='responsive-img home-img-2' alt="discovermuseum main mockup"></img>
                 <div className="project__desc">
                     <div className="project__desc-content">
                         <div>
@@ -45,6 +52,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            </ScrollAnimation>
         </section>
         <hr/>
     </div>
