@@ -1,8 +1,6 @@
 import { useRef } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import Resume from '../assets/Hiba_Resume.pdf'
-import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.min.css";
 const Navbar = () => {
 
   const refHamburger = useRef();
