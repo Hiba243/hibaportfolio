@@ -291,7 +291,7 @@ body {
 .navbar-content {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: baseline; }
 
 .navbar-padding {
   padding: 4rem 8rem 0 8rem; }
@@ -390,6 +390,10 @@ body {
   @media only screen and (max-width: 26.875em) {
     .socials {
       justify-content: space-between; } }
+
+@media only screen and (max-width: 26.875em) {
+  .copyright {
+    align-self: center; } }
 
 .landing-page-flex {
   display: flex;
