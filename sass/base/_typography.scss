@@ -51,11 +51,14 @@ body {
   }
 }
 .section-padding {
-
   margin: 10rem 8rem;
-
+ 
+  
   @include respond(phone) {
     margin: 5rem 3rem;
+  }
+  @media only screen and (min-width: 387.5em){
+    margin:10rem 200rem;
   }
   
 }

@@ -183,6 +183,9 @@ body {
   @media only screen and (max-width: 26.875em) {
     .section-padding {
       margin: 5rem 3rem; } }
+  @media only screen and (min-width: 387.5em) {
+    .section-padding {
+      margin: 10rem 200rem; } }
 
 .align-center {
   text-align: center; }
@@ -526,6 +529,9 @@ hr {
     .home-img-2 {
       margin: auto;
       width: 100% !important; } }
+  @media only screen and (min-width: 387.5em) {
+    .home-img-2 {
+      width: 50% !important; } }
 
 .width-80-img {
   width: 80% !important; }

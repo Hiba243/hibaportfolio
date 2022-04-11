@@ -122,6 +122,10 @@ background-color: rgba(253,255,182,0.36);
     margin: auto;
     width: 100% !important;
   }
+  @media only screen and (min-width: 387.5em){
+    width: 50% !important;
+  }
+
 }
 .width-80-img{
   width: 80% !important;
