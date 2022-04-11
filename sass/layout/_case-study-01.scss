@@ -50,14 +50,7 @@
     align-items: center;
     column-gap: 2rem;
 }
-.responsive-img{
-    width: 50%;
-    image-rendering:  -webkit-optimize-contrast;
-    // max-width: 50%;
-    @include respond(tab-port) {
-        width: 70%;
-    }
-}
+
 .underlined{
     text-decoration: underline;
     text-underline-position: under; 

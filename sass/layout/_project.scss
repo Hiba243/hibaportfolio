@@ -98,12 +98,26 @@ background-color: rgba(253,255,182,0.36);
   width: 50%;
   }
 }
+.responsive-img{
+  width: 50%;
+  image-rendering:  -webkit-optimize-contrast;
+  // max-width: 50%;
+  @include respond(tab-port) {
+      width: 70%;
+  }
+}
 .home-img-1{
+  width: 80%;
+  @media only screen and (max-width: 187.5em){
   width: 60%;
+  }
 }
 .home-img-2{
-  width: 50% !important;
-  margin: auto;
+  width: 20% !important;
+  @media only screen and (max-width: 187.5em){
+    width: 50% !important;
+    margin: auto;
+  }
   @include respond(tab-port) {
     margin: auto;
     width: 100% !important;

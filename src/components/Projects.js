@@ -20,7 +20,7 @@ const Projects = () => {
                         <div>
                             <p className="text__content">CraveFood</p>
                         </div>
-                        <p className="text__subheading">How do we decide what to order in a food ordering app when we have so many options to choose from?</p>
+                        <p className="text__subheading">How do we decide what to order in a food ordering app, without getting overwhelmed from all the options to choose from?</p>
                         <div>
                             <p className="text__content">UI/UX design of mobile app</p>
                         </div>

@@ -503,12 +503,25 @@ hr {
     .museum-mockup {
       width: 50%; } }
 
+.responsive-img {
+  width: 50%;
+  image-rendering: -webkit-optimize-contrast; }
+  @media only screen and (max-width: 60em) {
+    .responsive-img {
+      width: 70%; } }
+
 .home-img-1 {
-  width: 60%; }
+  width: 80%; }
+  @media only screen and (max-width: 187.5em) {
+    .home-img-1 {
+      width: 60%; } }
 
 .home-img-2 {
-  width: 50% !important;
-  margin: auto; }
+  width: 20% !important; }
+  @media only screen and (max-width: 187.5em) {
+    .home-img-2 {
+      width: 50% !important;
+      margin: auto; } }
   @media only screen and (max-width: 60em) {
     .home-img-2 {
       margin: auto;
@@ -667,13 +680,6 @@ hr {
   display: flex;
   align-items: center;
   column-gap: 2rem; }
-
-.responsive-img {
-  width: 50%;
-  image-rendering: -webkit-optimize-contrast; }
-  @media only screen and (max-width: 60em) {
-    .responsive-img {
-      width: 70%; } }
 
 .underlined {
   text-decoration: underline;

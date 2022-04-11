@@ -28,7 +28,7 @@ export default function Project1() {
             <div className='section-padding case-study-banner bg-yellow'>
                 <div className='case-study-banner-content'>
                     <p className='text__content'>CraveFood</p>
-                    <p className='text__subheading'>Designing a simpler way for users to easily find and select food in a food ordering app </p>
+                    <p className='text__subheading'>Designing an easier way for users to decide what food to order in a food ordering app</p>
                     <p className='text__content'>UI/UX design for a mobile app</p>
                     <div className='banner-logo-flex'>
                         <span className='logo-size material-icons'>watch_later</span>
@@ -57,7 +57,7 @@ export default function Project1() {
             <hr />
             <div className='section-padding case-study-content' id="theproblem">
                 <p className='text__content text-underline text-underline-yellow' >The Problem</p>
-                <p className='text__subheading-bold'>Users are often overwhelmed trying to decide what to order in a food ordering app</p>
+                <p className='text__subheading-bold'>We get more confused as we keep scrolling through endless options</p>
                 <p className='text__content'>With this case study, I wanted to explore the reason why we face difficulty while deciding what to order in food ordering apps and design a solution for it.</p>
             </div>
             <hr />
@@ -76,19 +76,19 @@ export default function Project1() {
             </div>
             <div className='section-padding case-study-content' id="userinterview">
                 <p className='text__content text-underline text-underline-yellow' >User Interviews</p>
-                <p className='text__subheading-bold'>My interviewees spent a significant amount of time trying to find the perfect food to order,
-                    but ended up feeling unsure about their selection</p>
+                <p className='text__subheading-bold'>My interviewees main need to use food ordering app is to find food that will fulfill their craving</p>
                 <div className='case-study-content-inner'>
                     <p className='text__subheading-semi-bold'>User interview questions</p>
                     <p className='text__content'>I conducted interviews to further understand why users face difficulty while deciding what food to order.</p>
                     <ul className='text__content ul-style'>
                         <li>How do you decide what food you want to order?</li>
-                        <li>What parts of a food ordering app do you like?</li>
+                        <li>What is your motivation to use food ordering apps?</li>
                         <li>What parts of a food ordering app do you think can be improved?</li>
                     </ul>
                     <p className='text__subheading-semi-bold'>Key insights obtained from the user interviews</p>
                     <ul className='text__content ul-style'>
                         <li>The primary user groups I found were youngsters and adults.</li>
+                        <li>Users use food ordering app to find a food that will fulfifll their cravings.</li>
                         <li>Users spend a significant amount of time trying to find a food item they’ll like.</li>
                         <li>Users often feel overloaded with all the options and information heavy UI.</li>
                     </ul>
@@ -111,8 +111,8 @@ export default function Project1() {
             </div>
             <div className='section-padding case-study-content' id="competetiveaudit">
                 <p className='text__content text-underline text-underline-yellow' >Competetive Audit</p>
-                <p className='text__subheading-bold'>Competing app’s offered a traditional filter which wasn't much useful</p>
-                <p className='text__content'>I analyzed popular food ordering apps and found that most of them presented an overload of information and choice to the users. The only thing they offered to help users to make decision more easily was a traditional filter button, which wasn’t doing much help. Improving the filter functionality became my opportunity for the solution.</p>
+                <p className='text__subheading-bold'>Food ordering apps offer lots of options, but miss the mark on fulfilling user's actual needs</p>
+                <p className='text__content'>I analyzed popular food ordering apps and found that most of them presented an overload of choice to the users. But the main reason why users use food ordering apps is to find something that will fullfill their craving. The only thing popular food ordering apps offered to help users to find food more easily was a traditional filter button, which wasn’t doing much help. Improving the filter functionality became my opportunity for the solution.</p>
                 <div className='case-study-banner-image-center'>
                     <img src={Competetive ? Competetive : ''} className='competetive-img' alt="cravefood's competetive products"></img>
                 </div>
@@ -130,11 +130,12 @@ export default function Project1() {
             </div>
             <div className='section-padding case-study-content' id="finalizedapproach">
                 <p className='text__content text-underline text-underline-yellow' >Finalized Approach</p>
-                <p className='text__subheading-bold'>Creating a two step filter that strives to be more useful than a traditional filter</p>
+                <p className='text__subheading-bold'>Creating a two step filter that strives to fulfifll user's actual needs</p>
                 <div className='case-study-content-inner'>
-                    <p className='text__subheading-semi-bold'>Improving the decision making process of the user by incorporating a two step filter</p>
+                    <p className='text__subheading-semi-bold'>Allowing the users to filter food based on their craving</p>
                     <ul className='text__content ul-style'>
-                        <li>It was found that when users open a food ordering app, they are presented with a lot of amazing options to choose from, but that often makes them forget their initial search criteria</li>
+                        <li>When asked what they would like to order, user's often described what they want their food to be like.</li>
+                        <li>But when users open a food ordering app, they are presented with a lot of amazing options to choose from, and that often makes them forget their initial search criteria</li>
                         <li>So before the user goes down the rabbit hole of endless scrolling, we should ask the user “What type of food are you looking for?” as this can help the user remember their initial search criteria.</li>
                         <li>Traditional filters usually display all the filter criterias at one place to the use</li>
                         <li>But to avoid overwhelming the user, I thought of using a two step filter. Instead of viewing all the filter criterias at once, a two step filter helps the user to only filter based on criterias that are important to them at the given moment.</li>
