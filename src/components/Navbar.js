@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import Resume from '../assets/Hiba_Resume.pdf'
+import Resume from '../assets/Hiba_Fatima_Resume.pdf'
 const Navbar = () => {
 
   const refHamburger = useRef();
