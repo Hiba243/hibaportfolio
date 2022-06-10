@@ -205,7 +205,7 @@ export default function Project2() {
                         <li className='text__content'>I developed the front-end of the web application using React and utilized the Met Collection API for fetching the data of Metropolitan Museum</li>
                         <li className='text__content'>I utilized React Context API to share data between different components</li>
                         <li className='text__content'>I created the image carousel using the react-gallery-carousel library</li>
-                        <li className='text__content'>Using HTML, CSS and Sass I created a responsive design for the web application</li>
+                        <li className='text__content'>Using HTML and CSS I created a responsive design for the web application</li>
                         <li className='text__content'>I used React-router for connecting the pages and added CSSTransition animations on each page transition for a smoother experience</li>
                     </ul>
                 </div>
