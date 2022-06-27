@@ -1,7 +1,7 @@
 .landing-page-flex {
   display: flex;
   flex-direction: column;
-  row-gap: 5rem;
+  row-gap: 7rem;
   justify-content: space-between;
 }
 .landing-page-underline {
@@ -15,4 +15,9 @@
   text-underline-position: under;
   text-underline-offset: 3px;
   text-decoration-thickness: 3px;
+}
+.landing-page-content-flex{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
 }

@@ -401,7 +401,7 @@ body {
 .landing-page-flex {
   display: flex;
   flex-direction: column;
-  row-gap: 5rem;
+  row-gap: 7rem;
   justify-content: space-between; }
 
 .landing-page-underline {
@@ -415,6 +415,11 @@ body {
   text-underline-position: under;
   text-underline-offset: 3px;
   text-decoration-thickness: 3px; }
+
+.landing-page-content-flex {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem; }
 
 .section-work {
   display: flex;
@@ -454,7 +459,7 @@ body {
       .project__img {
         margin: auto; } }
   .project__desc {
-    width: 40%; }
+    width: 50%; }
     @media only screen and (max-width: 60em) {
       .project__desc {
         width: 100%; } }
@@ -466,6 +471,10 @@ body {
       @media only screen and (max-width: 60em) {
         .project__desc-content {
           row-gap: 3rem; } }
+      .project__desc-content-heading {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem; }
   .project__link {
     display: flex;
     justify-content: flex-start;
@@ -494,11 +503,11 @@ hr {
   .text-underline-brown {
     text-decoration-color: #65471B; }
 
-.bg-yellow {
-  background-color: rgba(253, 255, 182, 0.36); }
+.bg-red {
+  background-color: rgba(196, 41, 60, 0.14); }
 
-.bg-brown {
-  background-color: rgba(101, 71, 27, 0.14); }
+.bg-grey {
+  background-color: rgba(216, 217, 217, 0.5); }
 
 .museum-mockup {
   margin: auto; }
@@ -536,10 +545,24 @@ hr {
 .width-80-img {
   width: 80% !important; }
 
+.text-underline-red {
+  text-decoration: underline;
+  text-decoration-color: #C4293C;
+  text-underline-position: under;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 3px; }
+
+.text-underline-grey {
+  text-decoration: underline;
+  text-decoration-color: #000000;
+  text-underline-position: under;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 3px; }
+
 .section-about {
   display: flex;
   flex-direction: column;
-  row-gap: 10rem;
+  row-gap: 5rem;
   justify-content: space-between; }
   @media only screen and (max-width: 75em) {
     .section-about {

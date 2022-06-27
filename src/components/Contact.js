@@ -12,7 +12,7 @@ const Contact = () => {
                 <p className="text__subheading-1 align-center">
                     Want to work together?</p>
                 <div>
-                    <p className="text__subheading align-center">
+                    <p className="text__content align-center">
                         Drop me an email: hibafatima24@gmail.com</p> 
                 </div>
             </div>

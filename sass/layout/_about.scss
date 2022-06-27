@@ -1,7 +1,7 @@
 .section-about {
   display: flex;
   flex-direction: column;
-  row-gap: 10rem;
+  row-gap: 5rem;
   justify-content: space-between;
   @include respond(tab-land) {
   gap:3rem;
