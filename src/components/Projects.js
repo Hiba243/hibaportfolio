@@ -28,7 +28,7 @@ const Projects = () => {
                                 <ul className="ul-style text__content">
                                     <li>Built the front-end using React, used React Context API for state management, and React-router-dom for the routing.</li>
                                     <li>
-                                        Implemented responsive web design using HTML, CSS and Sass.
+                                        Implemented responsive web design using HTML and CSS media queries.
                                     </li>
                                     <li>
                                         Integrated Stripe for payment processing, and used Express to develop a Post API to help create payment requests to Stripe.
