@@ -509,6 +509,9 @@ hr {
 .bg-grey {
   background-color: rgba(216, 217, 217, 0.5); }
 
+.bg-brown {
+  background-color: rgba(130, 111, 102, 0.2); }
+
 .museum-mockup {
   margin: auto; }
   @media only screen and (max-width: 60em) {
@@ -555,6 +558,13 @@ hr {
 .text-underline-grey {
   text-decoration: underline;
   text-decoration-color: #000000;
+  text-underline-position: under;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 3px; }
+
+.text-underline-brown {
+  text-decoration: underline;
+  text-decoration-color: #826F66;
   text-underline-position: under;
   text-underline-offset: 3px;
   text-decoration-thickness: 3px; }

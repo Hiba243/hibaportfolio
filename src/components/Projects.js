@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import EcommerceImg from '../images/Ecommerce.svg'
 import WatchAndListenImg from '../images/WatchAndListen.svg';
+import MetMuseumImg from '../images/MetMuseum.svg';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 
@@ -52,7 +53,7 @@ const Projects = () => {
             </ScrollAnimation>
             <ScrollAnimation animateIn="animate__fadeInUp" className="animate__animated" animateOnce={true}>
                 <div className="project bg-grey">
-                   <img src={WatchAndListenImg ? WatchAndListenImg : ''} className='responsive-img home-img-2' alt="Ecommerce main mockup"></img>
+                   <img src={WatchAndListenImg ? WatchAndListenImg : ''} className='responsive-img home-img-2' alt="WatchAndListen main mockup"></img>
                     <div className="project__desc">
                         <div className="project__desc-content">
                             <div className="project__desc-content-heading">
@@ -60,7 +61,7 @@ const Projects = () => {
                                 <p className="text__content">Front-end and Back-end Web Development</p>
                             </div>
                             <div>
-                                <p className="text__content">Created a web application to allow users to create their own customized list of youtube videos and images to watch them distraction free.</p>
+                                <p className="text__content">Developed a web application to allow users to create their own customized list of youtube videos and images to watch them distraction free.</p>
                             </div>
                             <div>
                                 <ul className="ul-style text__content">
@@ -90,6 +91,40 @@ const Projects = () => {
                             <div className="project__link">
                             <a className="text__content text-underline text-underline-grey" href="https://github.com/Hiba243/watch-and-listen-mern" rel="noreferrer" target="_blank">View Code &rarr;</a>
                                 <a className="text__content text-underline text-underline-grey" href="https://powerful-hollows-67614.herokuapp.com/" rel="noreferrer" target="_blank">View Website &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="animate__fadeInUp" className="animate__animated" animateOnce={true}>
+                <div className="project bg-brown">
+                   <img src={MetMuseumImg ? MetMuseumImg : ''} className='responsive-img home-img-2' alt="MetMuseum main mockup"></img>
+                    <div className="project__desc">
+                        <div className="project__desc-content">
+                            <div className="project__desc-content-heading">
+                                <p className="text__subheading">Discover Museum Website</p>
+                                <p className="text__content">Front-end Web Development</p>
+                            </div>
+                            <div>
+                                <p className="text__content">Designed and built a responsive web application for users to view the art of the Met Museum of New York.</p>
+                            </div>
+                            <div>
+                                <ul className="ul-style text__content">
+                                    <li>Developed the front-end of the website using React, and used React Context API to share data between different components.</li>
+                                    <li>
+                                    Utilized the Met Collection API for fetching the data of Metropolitan Museum.
+                                    </li>
+                                    <li>
+                                    Used React Router to provide routing between pages of the application. 
+                                    </li>
+                                    <li>
+                                    Implemented responsive web design using HTML and CSS.
+                                    </li>          
+                                </ul>
+                            </div>
+                            <div className="project__link">
+                            <a className="text__content text-underline text-underline-brown" href="https://github.com/Hiba243/discover-met-museum" rel="noreferrer" target="_blank">View Code &rarr;</a>
+                                <a className="text__content text-underline text-underline-brown" href="https://discovermuseum.netlify.app/" rel="noreferrer" target="_blank">View Website &rarr;</a>
                             </div>
                         </div>
                     </div>
