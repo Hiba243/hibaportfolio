@@ -14,7 +14,7 @@ const About = () => {
                         <p className="text__content col-flex-content">Being able to build websites and web applications as well as bringing ideas to life on the browser was something that always intrigued me.</p>
                             <p className="text__content col-flex-content">I have experience building web applications in the FinTech industry.</p>
                             <ul className="ul-style">
-                                <li className="text__content">I am skilled in Front-End (JavaScript, HTML, CSS) and Back-End(C#, ASP.NET) Web Development, writing Oracle queries and working with Azure DevOps CI/CD.</li>
+                                <li className="text__content">I am skilled in Front-End (JavaScript, React, HTML, CSS, SASS) and Back-End(C#, ASP.NET, Express, Node.js) Web Development, writing Oracle queries and working with Azure DevOps CI/CD.</li>
                             </ul>
                         </div>
                     </div>
