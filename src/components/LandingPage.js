@@ -8,8 +8,8 @@ const LandingPage = () => {
             <ScrollAnimation animateIn="animate__fadeIn" className="animate__animated" animateOnce={true} duration={1.5}>
             <section className="section-padding landing-page-flex">
                     <div className="landing-page-content-flex">
-                    <p className="text__bigheading font-accent">Hello, I’m Hiba Fatima, a Front-end Web Developer</p>              
-                    <p className="text__content">By day I'm a web developer at Deloitte. By night I’m pursuing my interests in front-end web development.</p>
+                    <p className="text__bigheading font-accent">Hello, I’m Hiba Fatima, a Web Developer</p>              
+                    <p className="text__content">By day I'm a Web Developer at Deloitte. By night I’m exploring and learning more about Full-Stack Web Development.</p>
                     </div>
                 <a href="#work" style={{width:"fit-content"}}><p className="text__content text-underline text-underline-pink">View My Work &rarr;</p>  </a>
             </section>
