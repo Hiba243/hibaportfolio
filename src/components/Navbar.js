@@ -1,10 +1,12 @@
 import { useRef } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
-import Resume from '../assets/Hiba_Fatima_Resume.pdf'
+
 const Navbar = () => {
 
   const refHamburger = useRef();
   const refNavMenu = useRef();
+  const refStar1 = useRef();
+  const refStar2 = useRef();
+  const refStar3 = useRef();
 
   function mobileMenu() {
     const hamburger = refHamburger.current;
@@ -31,29 +33,46 @@ const Navbar = () => {
     bodyelem[0].style.position = 'relative';
     bodyelem[0].style.overflow = 'visible';
   }
+  function rotate1() {
+    const star1 = refStar1.current;
+    star1.classList.toggle("star-hover");
+  }
+  function rotate2() {
+    const star2 = refStar2.current;
+    star2.classList.toggle("star-hover");
+  }
+  function rotate3() {
+    const star3 = refStar3.current;
+    star3.classList.toggle("star-hover");
+  }
 
   return (
-    <header className="navbar-padding">
-      <nav className="navbar-content">
-      <Link to="/"><p className="nav__logo">Portfolio</p></Link>
+    <header>
+      <nav className="navbar">
+        <p className="nav__logo">Portfolio</p>
         <ul className="nav__menu" ref={refNavMenu}>
-        <li className="nav__item">
-          <Link to="/#work"><p className="nav__link link-effect" onClick={closeMenu}>Work</p></Link>
-          </li>
-          <li className="nav__item">
-          <Link to="/#about"><p className="nav__link link-effect" onClick={closeMenu}
-            >About</p></Link>
-          </li>
-          <li className="nav__item">
-          <Link to="/#contact"><p  className="nav__link link-effect" onClick={closeMenu}
-            >Contact</p
-            ></Link>
-          </li>
-          <li className="nav__item">
-          <a href={Resume} target='_blank' rel="noreferrer">
-          <p  className="nav__link link-effect" onClick={closeMenu}>Resume</p>
-            </a>
-          </li>
+          <div className="link-flex">
+            <div className="star" id="star-1" ref={refStar1}></div>
+            <li className="nav__item">
+              <a href="#about" className="nav__link link-effect" onClick={closeMenu} onMouseOver={rotate1} onMouseLeave={rotate1}
+              >About</a
+              >
+            </li>
+          </div>
+          <div className="link-flex">
+            <div className="star" id="star-2" ref={refStar2}></div>
+            <li className="nav__item">
+              <a href="#work" className="nav__link link-effect" onClick={closeMenu} onMouseOver={rotate2} onMouseLeave={rotate2}>Work</a>
+            </li>
+          </div>
+          <div className="link-flex">
+            <div className="star" id="star-3" ref={refStar3}></div>
+            <li className="nav__item">
+              <a href="#contact" className="nav__link link-effect" onClick={closeMenu} onMouseOver={rotate3} onMouseLeave={rotate3}
+              >Contact</a
+              >
+            </li>
+          </div>
         </ul>
         <div className="hamburger" ref={refHamburger} onClick={mobileMenu}>
           <span className="bar"></span>

@@ -1,17 +1,83 @@
 .section-work {
+  padding: 0;
+  padding-bottom: 1rem;
+  @include respond(phone) {
+    padding-bottom: 1.5rem;
+  }
+  &__heading{
+    padding:3rem 2rem 0rem 2rem;
+    @include respond(phone) {
+      padding: 3rem 1.5rem 0rem 1.5rem;
+    }
+  }
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  padding:0 2rem;
+    @include respond(phone) {
+      padding: 0 1.5rem;
+    }
+  &__img {
+    background-color: $color-secondary;
+    width: 100%;
+    height: 500px;
+  }
+  &__desc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    @include respond(phone) {
+      flex-direction: column;
+    }
+    &-content {
+      display: flex;
+      flex-direction: column;
+      color: $color-secondary;
+      @include respond(phone) {
+        width: 100%;
+      }
+      &-h1 {
+        color: $color-yellow;
+      }
+    }
+  }
+  .project:hover{
+    background-color: rgba(143, 109, 245, .5);
+  }
+
+  &__link {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    @include respond(phone) {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+}
+hr {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  color: $color-secondary;
+}
+.section-work {
   display: flex;
   flex-direction: column;
-  row-gap: 10rem;
   justify-content: space-between;
   @include respond(tab-port) {
     padding-bottom: 1.5rem;
   }
   &__heading {
-    text-decoration: underline;
-    text-decoration-color: #FFE45E;
-    text-underline-position: under; 
-    text-underline-offset: 3px;
-    text-decoration-thickness: 3px;
+
     @include respond(tab-port) {
       padding: 3rem 1.5rem 0rem 1.5rem;
     }
@@ -19,9 +85,9 @@
 }
 
 .project {
-  padding: 3rem;
+  padding: 3rem 2rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   column-gap: 2rem;
@@ -39,7 +105,6 @@
     }
   }
   &__desc {
-    width: 50%;
     @include respond(tab-port) {
       width: 100%;
     }
@@ -48,11 +113,13 @@
       flex-direction: column;
       color: $color-secondary;
       row-gap: 5rem;
+      padding: 0 5rem;
       @include respond(tab-port) {
         row-gap: 3rem;
       }
       &-heading{
         display: flex;
+        text-align: center;
         flex-direction: column;
         row-gap: 2rem;
       }
@@ -60,9 +127,6 @@
   }
 
   &__link {
-    display: flex;
-    justify-content: flex-start;
-    column-gap: 5rem;
     @include respond(tab-port) {
       width: 100%;
       align-items: center;
@@ -72,12 +136,7 @@
     }
   }
 }
-hr {
-  margin-bottom: 3rem;
-  background: linear-gradient(to right, #FFC6FF, #BEE1E6,#FFE45E  );
-  height: 5px;
-  border:0;
-}
+
 .text-underline{
   text-decoration: underline;
     text-underline-position: under; 
@@ -158,4 +217,7 @@ background-color: rgba(196,41,60,0.14);
   text-underline-position: under; 
   text-underline-offset: 3px;
   text-decoration-thickness: 3px;
+}
+ul{
+  list-style-position: inside;
 }

@@ -1,22 +1,16 @@
 import React from "react";
-import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.min.css";
-
+import { IconContext } from "react-icons";
+import { BsLaptop } from "react-icons/bs";
 const LandingPage = () => {
     return (
-        <div>
-            <ScrollAnimation animateIn="animate__fadeIn" className="animate__animated" animateOnce={true} duration={1.5}>
-            <section className="section-padding landing-page-flex">
-                    <div className="landing-page-content-flex">
-                    <p className="text__bigheading font-accent">Hello, I’m Hiba Fatima, a Web Developer</p>              
-                    <p className="text__content">By day I'm a Web Developer at Deloitte. By night I’m exploring and learning more about Full-Stack Web Development.</p>
-                    </div>
-                <a href="#work" style={{width:"fit-content"}}><p className="text__content text-underline text-underline-pink">View My Work &rarr;</p>  </a>
-            </section>
-            </ScrollAnimation>
-            <hr />
-        </div>
+        <section className="section-padding">
+                <div className="text__heading landing-page-heading">Hiba Fatima <IconContext.Provider value={{ style: { verticalAlign: 'middle', color:'fed206' } }}>
+    <div><BsLaptop /></div>
+    
+</IconContext.Provider> Web Developer </div>
+        </section>
     );
+
 };
 
 export default LandingPage;

@@ -1,18 +1,18 @@
-.navbar-content {
+.navbar {
   display: flex;
   justify-content: space-between;
-  align-items: baseline
-}
-.navbar-padding{
-  padding: 4rem 8rem 0 8rem;
+  align-items: center;
+  padding: 3rem 2rem;
   @include respond(phone) {
-    padding: 3rem;
+    padding: 3rem 1.5rem;
   }
+  border:1px solid;
+  border-bottom: none;
 }
+
 .nav {
   &__menu {
     display: flex;
-    column-gap: 2rem;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
@@ -22,15 +22,18 @@
     @include respond(tab-land) {
       font-size: 1.65rem;
     }
-    padding-bottom: 0.4rem;
+    padding-bottom: .4rem;
     color: $color-secondary;
+  }
+  &__item {
+    margin: 0 2rem 0 1rem;
   }
   &__logo {
     font-size: 1.5rem;
     @include respond(tab-land) {
       font-size: 1.65rem;
     }
-    color: $color-secondary;
+    color: $color-yellow;
   }
 }
 
@@ -68,7 +71,8 @@
     }
     &__link {
       color: $color-secondary;
-      font-size: 3rem;
+      font-size: 5rem;
+      padding-left: 3rem;
     }
   }
 
@@ -100,30 +104,9 @@
     background-color: $color-secondary;
   }
 }
+.link-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
-.section-footer{
-  display: flex;
-  justify-content: space-between;
-  @include respond(phone) {
-    flex-direction: column;
-    row-gap: 3rem;
-  }
-}
-.footer-padding{
-  padding: 4rem 8rem;
-  @include respond(phone) {
-    padding: 3rem;
-  }
-}
-.socials{
-  display: flex;
-  column-gap: 2rem;
-  @include respond(phone) {
-    justify-content: space-between;
-  }
-}
-.copyright{
-  @include respond(phone) {
-  align-self: center;
-  }
-}

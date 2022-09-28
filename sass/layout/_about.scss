@@ -1,89 +1,71 @@
 .section-about {
   display: flex;
-  flex-direction: column;
-  row-gap: 5rem;
-  justify-content: space-between;
+  flex-direction: row;
+  padding: 0;
   @include respond(tab-land) {
   gap:3rem;
+  padding: 3rem 2rem;
   }
   @include respond(phone) {
+    padding: 3rem 1.5rem;
   }
   @include respond(tab-land) {
     flex-direction: column;
   }
   &__about {
-    // border-right: 1px solid;
+    width: 60%;
+    padding: 3rem 2rem;
+    border-right: 1px solid;
     display: flex;
     flex-direction: column;
-    row-gap: 8rem;
     @include respond(tab-land) {
       padding: 0;
       border-right: none;
       border-bottom: none;
-      row-gap: 5rem;
-      margin: 3rem 0;
+      display: inline;
     }
     @include respond(tab-land) {
       width: 100%;
     }
     &-content{
       display: flex;
-      flex-direction: row;
+      row-gap: 2rem;
+      flex-direction: column;
       height: 100%;
-      justify-content: space-around;
-      column-gap: 5rem;
+      justify-content: space-between;
+    }
+  }
+  &__skills {
+    width: 40%;
+    padding: 3rem 2rem;
+    @include respond(tab-land) {
+      width: 100%;
+      gap: 2rem;
+    }
+    &-1,
+    &-2 {
+      padding: 3rem 2rem;
       @include respond(tab-land) {
-        flex-direction: column;
-        row-gap: 5rem;
-        justify-content: space-between;
+        padding: 0;
+        border-bottom: none;
+      }
+    }
+    &-2{
+      border-bottom: none;
+    }
+    &-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 6rem;
+      @include respond(tab-land) {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 4rem;
+      }
+      @include respond(phone) {
+        gap: 1rem;
       }
     }
   }
-}
-
-.about-section-heading{
-  text-decoration: underline;
-  text-decoration-color: #BEE1E6;
-  text-underline-position: under; 
-  text-underline-offset: 3px;
-  text-decoration-thickness: 3px;
-  &-1{
-    text-align: center;
-  }
-}
-.col-flex{
-  display: flex;
-  flex-direction: column;
-  row-gap: 4rem;
-  width: 50%;
-  @include respond(tab-land) {
-    width: 100%;
-  }
-  &-heading{
-    text-align: center;
-    @include respond(tab-land) {
-      text-align: left;
-    }
-  }
-}
-.row-flex-content{
-  display: flex;
-  flex-direction: column;
-  row-gap: 3rem;
-  width: 50%;
-  padding: 3rem 0;
-  &-casestudy{
-    @include respond(tab-land) {
-    width: 100%;
-    }
-  }
-}
-.about-content-flex{
-  display: flex;
-  flex-direction: column;
-  row-gap: 3rem;
-}
-
-.ul-style{
-  list-style-position: inside;
 }

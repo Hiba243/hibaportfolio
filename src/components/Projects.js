@@ -1,25 +1,24 @@
-import { Link } from "react-router-dom";
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 import EcommerceImg from '../images/Ecommerce.svg'
 import WatchAndListenImg from '../images/WatchAndListen.svg';
 import MetMuseumImg from '../images/MetMuseum.svg';
-import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.min.css";
 
 const Projects = () => {
 
-    return <div>
-
-        <section className="section-padding section-work" id="work">
-            <div className="text__heading section-work__heading font-accent align-center">
-                My Work
+    return <section className="section-padding section-work" id="work">
+        {/* <ScrollAnimation animateIn="animate__fadeInLeft" className="animate__animated" animateOnce={true}> */}
+            <div className="text__heading section-work__heading">
+                <span className="arr-purple">&rarr;</span> <span className="color-yellow">Selected Work</span>
             </div>
-            <ScrollAnimation animateIn="animate__fadeInUp" className="animate__animated" animateOnce={true}>
-                <div className="project bg-red">
+        {/* </ScrollAnimation> */}
+        <ScrollAnimation animateIn="animate__fadeInUp" className="animate__animated" animateOnce={true}>
+                <div className="project">
                 <img src={EcommerceImg ? EcommerceImg : ''} className='responsive-img home-img-2' alt="Ecommerce main mockup"></img>
                     <div className="project__desc">
                         <div className="project__desc-content">
                             <div className="project__desc-content-heading">
-                                <p className="text__subheading">SuperSkin E-commerce Website</p>
+                                <p className="text__subheading color-yellow">SuperSkin E-commerce Website</p>
                                 <p className="text__content">Front-end and Back-end Web Development</p>
                             </div>
                             <div>
@@ -44,20 +43,21 @@ const Projects = () => {
                                 </ul>
                             </div>
                             <div className="project__link">
-                            <a className="text__content text-underline text-underline-red" href="https://github.com/Hiba243/skincare-shop" rel="noreferrer" target="_blank">View Code &rarr;</a>
-                                <a className="text__content text-underline text-underline-red" href="https://clone-d6025.web.app/" rel="noreferrer" target="_blank">View Website &rarr;</a>
+                            <a className="text__content link-effect" href="https://github.com/Hiba243/skincare-shop" rel="noreferrer" target="_blank">View Code &rarr;</a>
+                                <a className="text__content link-effect" href="https://clone-d6025.web.app/" rel="noreferrer" target="_blank">View Website &rarr;</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </ScrollAnimation>
+            <hr></hr>
             <ScrollAnimation animateIn="animate__fadeInUp" className="animate__animated" animateOnce={true}>
-                <div className="project bg-grey">
+                <div className="project">
                    <img src={WatchAndListenImg ? WatchAndListenImg : ''} className='responsive-img home-img-2' alt="WatchAndListen main mockup"></img>
                     <div className="project__desc">
                         <div className="project__desc-content">
                             <div className="project__desc-content-heading">
-                                <p className="text__subheading">Watch and Listen Web Application</p>
+                                <p className="text__subheading color-yellow">Watch and Listen Web Application</p>
                                 <p className="text__content">Front-end and Back-end Web Development</p>
                             </div>
                             <div>
@@ -89,20 +89,21 @@ const Projects = () => {
                                 </ul>
                             </div>
                             <div className="project__link">
-                            <a className="text__content text-underline text-underline-grey" href="https://github.com/Hiba243/watch-and-listen-mern" rel="noreferrer" target="_blank">View Code &rarr;</a>
-                                <a className="text__content text-underline text-underline-grey" href="https://powerful-hollows-67614.herokuapp.com/" rel="noreferrer" target="_blank">View Website &rarr;</a>
+                            <a className="text__content link-effect" href="https://github.com/Hiba243/watch-and-listen-mern" rel="noreferrer" target="_blank">View Code &rarr;</a>
+                                <a className="text__content link-effect" href="https://powerful-hollows-67614.herokuapp.com/" rel="noreferrer" target="_blank">View Website &rarr;</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </ScrollAnimation>
+            <hr></hr>
             <ScrollAnimation animateIn="animate__fadeInUp" className="animate__animated" animateOnce={true}>
-                <div className="project bg-brown">
+                <div className="project">
                    <img src={MetMuseumImg ? MetMuseumImg : ''} className='responsive-img home-img-2' alt="MetMuseum main mockup"></img>
                     <div className="project__desc">
                         <div className="project__desc-content">
                             <div className="project__desc-content-heading">
-                                <p className="text__subheading">Discover Museum Website</p>
+                                <p className="text__subheading color-yellow">Discover Museum Website</p>
                                 <p className="text__content">Front-end Web Development</p>
                             </div>
                             <div>
@@ -123,16 +124,14 @@ const Projects = () => {
                                 </ul>
                             </div>
                             <div className="project__link">
-                            <a className="text__content text-underline text-underline-brown" href="https://github.com/Hiba243/discover-met-museum" rel="noreferrer" target="_blank">View Code &rarr;</a>
-                                <a className="text__content text-underline text-underline-brown" href="https://discovermuseum.netlify.app/" rel="noreferrer" target="_blank">View Website &rarr;</a>
+                            <a className="text__content link-effect" href="https://github.com/Hiba243/discover-met-museum" rel="noreferrer" target="_blank">View Code &rarr;</a>
+                                <a className="text__content link-effect" href="https://discovermuseum.netlify.app/" rel="noreferrer" target="_blank">View Website &rarr;</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </ScrollAnimation>
-        </section>
-        <hr />
-    </div>
+    </section>
 
 }
 

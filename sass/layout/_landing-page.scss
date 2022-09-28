@@ -1,23 +1,5 @@
-.landing-page-flex {
-  display: flex;
-  flex-direction: column;
-  row-gap: 7rem;
-  justify-content: space-between;
-}
-.landing-page-underline {
-  text-decoration: underline;
-  text-decoration-color: #ffc6ff;
-  text-underline-position: under;
-}
-.button-underline {
-  text-decoration: underline;
-  text-decoration-color: #ffc6ff;
-  text-underline-position: under;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 3px;
-}
-.landing-page-content-flex{
-  display: flex;
-  flex-direction: column;
-  row-gap: 2rem;
+.landing-page-heading{
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 4rem;
 }
