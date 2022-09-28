@@ -1,5 +1,3 @@
-import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import Tooltip from "@material-ui/core/Tooltip";
 import { withStyles } from '@material-ui/core/styles';
@@ -20,13 +18,11 @@ const Contact = () => {
 
     return <section className="section-contact section-padding" id="contact">
         <div className="section-contact__content">
-            {/* <ScrollAnimation animateIn="animate__fadeInLeft" className="animate__animated" animateOnce={true}> */}
-                <p className="text__subheading"><span className="arr-purple">&rarr;</span> Get In Touch</p>
-            {/* </ScrollAnimation> */}
+            <p className="text__subheading"><span className="arr-purple">&rarr;</span> Get In Touch</p>
             <div className="section-contact__content-email">
-            <p className="text__subheading">
-                Drop me a mail:&nbsp;</p>
-                
+                <p className="text__subheading">
+                    Drop me a mail:&nbsp;</p>
+
                 <CopyToClipboard
                     text={"hibafatima24@gmail.com"}
                     onCopy={() => setCopiedText("hibafatima24@gmail.com")}
@@ -42,7 +38,7 @@ const Contact = () => {
                     >
                         <p className="copy-click text__subheading">hibafatima24@gmail.com</p>
                     </LightTooltip>
-                </CopyToClipboard>         
+                </CopyToClipboard>
             </div>
         </div>
         <div className="section-contact__social text__subheading">
@@ -50,7 +46,7 @@ const Contact = () => {
             <p><a href="https://github.com/Hiba243" target="_blank" rel="noreferrer" className="link-effect">Github</a></p>
         </div>
     </section>
-    
+
 }
 
 export default Contact;

@@ -37,10 +37,10 @@ body {
     padding: 3rem;
   }
   @include respond(tab-port) {
-    padding: 3rem;
+    padding: 0;
   }
   @include respond(phone) {
-    padding: 1.5rem;
+    padding: 0;
   }
 }
 
@@ -146,8 +146,8 @@ a.link-effect:hover::before {
   height: 10px;
   background: $color-yellow;
   @include respond(tab-port) {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
   }
 }
 .star:after {
@@ -158,7 +158,7 @@ a.link-effect:hover::before {
   background: $color-yellow;
   transform: rotate(45deg);
   @include respond(tab-port) {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
   }
 }

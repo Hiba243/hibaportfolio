@@ -7,6 +7,7 @@
     padding: 3rem 1.5rem;
   }
   border:1px solid;
+
   border-bottom: none;
 }
 
@@ -49,6 +50,9 @@
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: $color-secondary;
+  @include respond(tab-port) {
+    width: 15px;
+  }
 }
 
 @include respond(tab-port) {
@@ -71,7 +75,7 @@
     }
     &__link {
       color: $color-secondary;
-      font-size: 5rem;
+      font-size: 2rem;
       padding-left: 3rem;
     }
   }

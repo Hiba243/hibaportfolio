@@ -1,15 +1,12 @@
 import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
 
 const About = () => {
 
     return <section className="section-about section-padding" id="about">
         <div className="section-about__about">
-            {/* <ScrollAnimation animateIn="animate__fadeInLeft" className="animate__animated" animateOnce={true}> */}
             <div className="text__heading ">
                 <span className="arr-purple">&rarr;</span> <span className="color-yellow">About Me</span>
             </div>
-            {/* </ScrollAnimation> */}
             <div className="section-about__about-content">
                 <div className="text__content">
                     I am currently building web applications for the FinTech industry.
@@ -23,12 +20,9 @@ const About = () => {
             </div>
         </div>
         <div className="section-about__skills">
-
-            {/* <ScrollAnimation animateIn="animate__fadeInLeft" className="animate__animated" animateOnce={true}> */}
             <div className="text__heading">
                 <span className="arr-purple">&rarr;</span> <span className="color-yellow">My Toolkit</span>
             </div>
-            {/* </ScrollAnimation> */}
             <div className="section-about__skills-content text__content">
                 <div>Javascript</div>
                 <div>React</div>
