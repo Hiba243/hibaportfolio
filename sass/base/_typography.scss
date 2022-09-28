@@ -36,6 +36,9 @@ body {
 .section-padding{
   padding: 3rem 2rem;
   @include respond(phone) {
+    border-right: none;
+    border-left: none;
+    
     padding: 3rem 1.5rem;
   }
   border: 1px solid;

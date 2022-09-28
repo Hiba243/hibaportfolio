@@ -232,6 +232,8 @@ body {
   border-bottom: none; }
   @media only screen and (max-width: 26.875em) {
     .section-padding {
+      border-right: none;
+      border-left: none;
       padding: 3rem 1.5rem; } }
 
 .color-yellow {
@@ -298,7 +300,10 @@ body {
   border-bottom: none; }
   @media only screen and (max-width: 26.875em) {
     .navbar {
-      padding: 3rem 1.5rem; } }
+      padding: 3rem 1.5rem;
+      border-right: none;
+      border-left: none;
+      border-top: none; } }
 
 .nav__menu {
   display: flex;

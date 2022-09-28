@@ -3,12 +3,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 3rem 2rem;
+  border:1px solid;
+  border-bottom: none;
   @include respond(phone) {
     padding: 3rem 1.5rem;
+    border-right: none;
+    border-left: none;
+    border-top: none;
   }
-  border:1px solid;
-
-  border-bottom: none;
 }
 
 .nav {
