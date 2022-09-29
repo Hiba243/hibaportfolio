@@ -20,7 +20,7 @@ const Projects = () => {
                             <p className="text__content">Front-end and Back-end Web Development</p>
                         </div>
                         <div>
-                            <p className="text__content">Created a responsive E-commerce website from scratch using React, Firebase, Express and Stripe. Includes features to search and filter for products, add items to cart and proceed to checkout, process payments, view order history, user login and sign up.</p>
+                            <p className="text__content">Created a responsive E-commerce website from scratch using React, Firebase, Express, and Stripe. Includes features to search and filter products, add items to the cart and proceed to checkout, process payments, view order history, user log in and sign up.</p>
                         </div>
                         <div>
                             <ul className="ul-style text__content">
@@ -35,7 +35,7 @@ const Projects = () => {
                                     Cleaned and parsed JSON data returned from HTTP requests.
                                 </li>
                                 <li>
-                                    Utilized Firebase realtime database for storing data, Firebase authentication to authenticate users in sign-in/login page, and Firebase hosting to host the application.
+                                Utilized Firebase realtime database for storing data, Firebase authentication to authenticate users on the sign-in/login page, and Firebase hosting to host the application.
                                 </li>
 
                             </ul>
@@ -59,7 +59,7 @@ const Projects = () => {
                             <p className="text__content">Front-end and Back-end Web Development</p>
                         </div>
                         <div>
-                            <p className="text__content">Developed a web application to allow users to create their own customized list of youtube videos and images to watch them distraction free.</p>
+                            <p className="text__content">Developed a web application to allow users to create their own customized list of youtube videos and images to watch them distraction-free.</p>
                         </div>
                         <div>
                             <ul className="ul-style text__content">
@@ -68,16 +68,15 @@ const Projects = () => {
                                     Integrated Youtube iframe API to embed youtube video player in the application.
                                 </li>
                                 <li>
-                                    Developed APIs using Node.js Express to store and fetch user's data from MongoDB.
+                                    Developed APIs using Express to store and fetch users' data from MongoDB.
 
                                 </li>
                                 <li>
-                                    Utilized JWT to secure the API calls, and used bcryptJS to hash user's passwords.
+                                    Utilized JWT to secure the API calls, and used bcryptJS to hash users' passwords.
 
                                 </li>
                                 <li>
-                                    Used axios to perform http requests of the API calls.
-
+                                    Used Axios to perform HTTP requests of the API calls.
                                 </li>
                                 <li>
                                     Made use of Mongoose to provide schema validation and to translate between objects in code and the representation of those objects in MongoDB.
