@@ -1,6 +1,7 @@
 import React from "react";
 import { IconContext } from "react-icons";
 import { BsLaptop } from "react-icons/bs";
+import { TypeAnimation } from 'react-type-animation';
 const LandingPage = () => {
     return (
         <section className="section-padding">
@@ -11,7 +12,12 @@ const LandingPage = () => {
                         <BsLaptop />
                     </div>
                 </IconContext.Provider>
-                Web Developer
+                <TypeAnimation
+                    sequence={['Web Developer', 1000, '']}
+                    repeat={Infinity}
+                    speed={20}
+                    cursor={true}
+                />
             </div>
         </section>
     );
