@@ -35,7 +35,7 @@ const Projects = () => {
                                     Cleaned and parsed JSON data returned from HTTP requests.
                                 </li>
                                 <li>
-                                Utilized Firebase realtime database for storing data, Firebase authentication to authenticate users on the sign-in/login page, and Firebase hosting to host the application.
+                                    Utilized Firebase realtime database for storing data, Firebase authentication to authenticate users on the sign-in/login page, and Firebase hosting to host the application.
                                 </li>
 
                             </ul>
@@ -59,7 +59,7 @@ const Projects = () => {
                             <p className="text__content">Front-end and Back-end Web Development</p>
                         </div>
                         <div>
-                            <p className="text__content">Developed a web application to allow users to create their own customized list of youtube videos and images to watch them distraction-free.</p>
+                            <p className="text__content">Developed a web application to allow users to create customizable list of youtube study music videos and vision board images and watch them distraction free.</p>
                         </div>
                         <div>
                             <ul className="ul-style text__content">
