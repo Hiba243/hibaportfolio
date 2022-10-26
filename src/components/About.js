@@ -12,10 +12,10 @@ const About = () => {
                     I'm Hiba Fatima, a full-stack web developer having experience building web applications for the FinTech industry.
                 </div>
                 <div className="text__content">
-                    I am skilled in front-end web development, back-end web development, writing Oracle SQL queries and doing deployments through Azure DevOps CI/CD.
+                    I am skilled in front-end web development, back-end web development, writing Oracle SQL queries, and doing deployments through Azure DevOps CI/CD.
                 </div>
                 <div className="text__content">
-                    In my spare time, I learn about the latest technologies in web development and build my own web applications using them.
+                    In my spare time, I learn about the latest technologies in web development and build web applications using them.
                 </div>
             </div>
         </div>

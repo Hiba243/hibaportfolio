@@ -59,7 +59,7 @@ const Projects = () => {
                             <p className="text__content">Front-end and Back-end Web Development</p>
                         </div>
                         <div>
-                            <p className="text__content">Developed a web application to allow users to create customizable list of youtube study music videos and vision board images and watch them distraction free.</p>
+                            <p className="text__content">Developed a web application to allow users to create a customizable list of youtube study music videos and vision board images and watch them distraction free.</p>
                         </div>
                         <div>
                             <ul className="ul-style text__content">
