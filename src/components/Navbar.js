@@ -82,7 +82,7 @@ const Navbar = () => {
           <div className="link-flex">
             <div className="star" id="star-4" ref={refStar4}></div>
             <li className="nav__item">
-              <a href={Resume} download="Hiba_Resume" target='_blank' className="nav__link link-effect" onClick={closeMenu} onMouseOver={rotate4} onMouseLeave={rotate4}
+              <a href={Resume} target='_blank' rel="noreferrer" className="nav__link link-effect" onClick={closeMenu} onMouseOver={rotate4} onMouseLeave={rotate4}
               >Resume</a
               >
             </li>
