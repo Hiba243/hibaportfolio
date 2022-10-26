@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import Resume from '../assets/Hiba_Resume.pdf'
 
 const Navbar = () => {
 
@@ -7,6 +8,7 @@ const Navbar = () => {
   const refStar1 = useRef();
   const refStar2 = useRef();
   const refStar3 = useRef();
+  const refStar4 = useRef();
 
   function mobileMenu() {
     const hamburger = refHamburger.current;
@@ -45,6 +47,10 @@ const Navbar = () => {
     const star3 = refStar3.current;
     star3.classList.toggle("star-hover");
   }
+  function rotate4() {
+    const star4 = refStar4.current;
+    star4.classList.toggle("star-hover");
+  }
 
   return (
     <header>
@@ -70,6 +76,14 @@ const Navbar = () => {
             <li className="nav__item">
               <a href="#contact" className="nav__link link-effect" onClick={closeMenu} onMouseOver={rotate3} onMouseLeave={rotate3}
               >Contact</a
+              >
+            </li>
+          </div>
+          <div className="link-flex">
+            <div className="star" id="star-4" ref={refStar4}></div>
+            <li className="nav__item">
+              <a href={Resume} download="Hiba_Resume" target='_blank' className="nav__link link-effect" onClick={closeMenu} onMouseOver={rotate4} onMouseLeave={rotate4}
+              >Resume</a
               >
             </li>
           </div>
