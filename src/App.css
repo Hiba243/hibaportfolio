@@ -531,7 +531,7 @@ ul {
     .section-about__skills-content {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: center;
       gap: 6rem; }
       @media only screen and (max-width: 75em) {
         .section-about__skills-content {

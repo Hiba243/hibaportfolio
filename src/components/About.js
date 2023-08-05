@@ -12,10 +12,16 @@ const About = () => {
                     I'm Hiba Fatima, a full-stack web developer having experience building web applications for the FinTech industry.
                 </div>
                 <div className="text__content">
-                    I am skilled in front-end web development, back-end web development, writing Oracle SQL queries, and doing deployments through Azure DevOps CI/CD.
+                    By day, I develop the back-end of a Tax web application at Deloitte USI where I use .NET, C#, Oracle, SQL, Azure DevOps CI/CD on the daily. 
                 </div>
                 <div className="text__content">
-                    In my spare time, I learn about the latest technologies in web development and build web applications using them.
+<p>By night, I like to learn new skills by building my own&nbsp;</p>
+<a className="text__content link-effect" href="#work" rel="noreferrer" target="_self">web applications</a>
+&nbsp;(using latest technologies like React, Node.js, and MongoDB) & by completing certifications (in&nbsp;
+<a className="text__content link-effect" href="https://www.credly.com/badges/d8cbe7e3-ebb9-41d0-9694-d2ea8de2ddf5/public_url" rel="noreferrer" target="_blank">AWS</a> 
+&nbsp;and&nbsp; 
+<a className="text__content link-effect" href="https://www.credly.com/badges/9aa1dfe7-0d67-4ba6-bed7-98f7c487c536/public_url" rel="noreferrer" target="_blank">UI/UX</a>
+).
                 </div>
             </div>
         </div>
@@ -24,16 +30,16 @@ const About = () => {
                 <span className="arr-purple">&rarr;</span> <span className="color-yellow">My Toolkit</span>
             </div>
             <div className="section-about__skills-content text__content">
-                <div>Javascript</div>
-                <div>React</div>
-                <div>HTML</div>
-                <div>SASS</div>
                 <div>C#</div>
                 <div>.NET</div>
-                <div>Node.js</div>
+                <div>API</div>
                 <div>Oracle</div>
                 <div>SQL</div>
                 <div>Azure DevOps CI/CD</div>
+                <div>AWS</div>
+                <div>React</div>
+                <div>Javascript</div>
+                <div>Node.js</div>
                 <div>Git</div>
             </div>
         </div>

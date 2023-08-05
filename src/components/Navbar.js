@@ -79,14 +79,14 @@ const Navbar = () => {
               >
             </li>
           </div>
-          <div className="link-flex">
+          {/* <div className="link-flex">
             <div className="star" id="star-4" ref={refStar4}></div>
             <li className="nav__item">
               <a href={Resume} target='_blank' rel="noreferrer" className="nav__link link-effect" onClick={closeMenu} onMouseOver={rotate4} onMouseLeave={rotate4}
               >Resume</a
               >
             </li>
-          </div>
+          </div> */}
         </ul>
         <div className="hamburger" ref={refHamburger} onClick={mobileMenu}>
           <span className="bar"></span>

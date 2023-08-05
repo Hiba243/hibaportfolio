@@ -87,7 +87,7 @@ const Projects = () => {
                         </div>
                         <div className="project__link">
                             <a className="text__content link-effect" href="https://github.com/Hiba243/watch-and-listen-mern" rel="noreferrer" target="_blank">View Code &rarr;</a>
-                            <a className="text__content link-effect" href="https://powerful-hollows-67614.herokuapp.com/" rel="noreferrer" target="_blank">View Website &rarr;</a>
+                            <a className="text__content link-effect" href="https://watchandlisten.netlify.app/" rel="noreferrer" target="_blank">View Website &rarr;</a>
                         </div>
                     </div>
                 </div>
