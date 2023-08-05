@@ -1,5 +1,4 @@
 import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
 import EcommerceImg from '../images/Ecommerce.svg'
 import WatchAndListenImg from '../images/WatchAndListen.svg';
 import MetMuseumImg from '../images/MetMuseum.svg';
@@ -10,7 +9,6 @@ const Projects = () => {
         <div className="text__heading section-work__heading">
             <span className="arr-purple">&rarr;</span> <span className="color-yellow">Selected Work</span>
         </div>
-        <ScrollAnimation animateIn="animate__fadeInUp" className="animate__animated" animateOnce={true}>
             <div className="project">
                 <img src={EcommerceImg ? EcommerceImg : ''} className='responsive-img home-img-2' alt="Ecommerce main mockup"></img>
                 <div className="project__desc">
@@ -47,9 +45,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </ScrollAnimation>
         <hr></hr>
-        <ScrollAnimation animateIn="animate__fadeInUp" className="animate__animated" animateOnce={true}>
             <div className="project">
                 <img src={WatchAndListenImg ? WatchAndListenImg : ''} className='responsive-img home-img-2' alt="WatchAndListen main mockup"></img>
                 <div className="project__desc">
@@ -92,9 +88,9 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </ScrollAnimation>
+        
         <hr></hr>
-        <ScrollAnimation animateIn="animate__fadeInUp" className="animate__animated" animateOnce={true}>
+        
             <div className="project">
                 <img src={MetMuseumImg ? MetMuseumImg : ''} className='responsive-img home-img-2' alt="MetMuseum main mockup"></img>
                 <div className="project__desc">
@@ -127,7 +123,6 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </ScrollAnimation>
     </section>
 
 }
