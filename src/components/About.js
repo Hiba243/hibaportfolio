@@ -16,11 +16,11 @@ const About = () => {
                 </div>
                 <div className="text__content">
 <p>By night, I like to learn new skills by building my own&nbsp;</p>
-<a className="text__content link-effect" href="#work" rel="noreferrer" target="_self">web applications</a>
+<span><a className="text__content" href="#work" rel="noreferrer" target="_self">web applications</a></span>
 &nbsp;(using latest technologies like React, Node.js, and MongoDB) & by completing certifications (in&nbsp;
-<a className="text__content link-effect" href="https://www.credly.com/badges/d8cbe7e3-ebb9-41d0-9694-d2ea8de2ddf5/public_url" rel="noreferrer" target="_blank">AWS</a> 
+<span><a className="text__content" href="https://www.credly.com/badges/d8cbe7e3-ebb9-41d0-9694-d2ea8de2ddf5/public_url" rel="noreferrer" target="_blank">AWS</a></span>
 &nbsp;and&nbsp; 
-<a className="text__content link-effect" href="https://www.credly.com/badges/9aa1dfe7-0d67-4ba6-bed7-98f7c487c536/public_url" rel="noreferrer" target="_blank">UI/UX</a>
+<span><a className="text__content" href="https://www.credly.com/badges/9aa1dfe7-0d67-4ba6-bed7-98f7c487c536/public_url" rel="noreferrer" target="_blank">UI/UX</a></span>
 ).
                 </div>
             </div>
