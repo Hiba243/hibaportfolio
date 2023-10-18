@@ -1,5 +1,4 @@
 import { useRef } from 'react';
-import Resume from '../assets/Hiba_Resume.pdf'
 
 const Navbar = () => {
 
