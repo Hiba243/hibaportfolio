@@ -7,7 +7,7 @@ const Projects = () => {
 
     return <section className="section-padding section-work" id="work">
         <div className="text__heading section-work__heading">
-            <span className="arr-purple">&rarr;</span> <span className="color-yellow">Selected Work</span>
+            <span className="arr-purple">&rarr;</span> <span className="color-yellow">Personal Projects</span>
         </div>
             <div className="project">
                 <img src={EcommerceImg ? EcommerceImg : ''} className='responsive-img home-img-2' alt="Ecommerce main mockup"></img>
