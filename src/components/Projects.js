@@ -2,6 +2,7 @@ import "animate.css/animate.min.css";
 import EcommerceImg from '../images/Ecommerce.svg'
 import WatchAndListenImg from '../images/WatchAndListen.svg';
 import MetMuseumImg from '../images/MetMuseum.svg';
+import VoiceBasedNavImg from '../images/VoiceBasedNavigation.svg';
 
 const Projects = () => {
 
@@ -9,6 +10,43 @@ const Projects = () => {
         <div className="text__heading section-work__heading">
             <span className="arr-purple">&rarr;</span> <span className="color-yellow">Personal Projects</span>
         </div>
+        <div className="project">
+                <img src={VoiceBasedNavImg ? VoiceBasedNavImg : ''} className='responsive-img home-img-2' alt="Voice based navigation main mockup"></img>
+                <div className="project__desc">
+                    <div className="project__desc-content">
+                        <div className="project__desc-content-heading">
+                            <p className="text__subheading color-yellow">Voice Based Navigation for Web Applications</p>
+                            <p className="text__content">Development using AWS Cloud Services</p>
+                        </div>
+                        <div>
+                            <p className="text__content">A voice based navigational solution for web applications where users can effortlessly navigate and interact with web forms hands-free. Featuring intelligent code snippets, it scans any web page and automates all the voice based navigation setup. Leverages AWS Lex to deliver an accessible & enhanced user experience for web application navigation.</p>
+                        </div>
+                        <div>
+                            <ul className="ul-style text__content">
+                                <li>Utilized AWS Lex for voice bot, enabling navigation based on user utterances.</li>
+                                <li>
+                                Leveraged AWS DynamoDB as the backend database for efficient data storage and retrieval.
+                                </li>
+                                <li>
+                                Hosted static website files on AWS S3, ensuring reliable and scalable website hosting.
+                                </li>
+                                <li>
+                                Configured AWS CloudFront to optimize content delivery and serve as a CDN for the domain, with S3 as the origin source.
+                                </li>
+                                <li>
+                                Developed React frontend for dynamic user interface.
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div className="project__link">
+                            <a className="text__content link-effect" href="https://github.com/Hiba243/Voice_Based_Navigation_Hackathon" rel="noreferrer" target="_blank">View Code &rarr;</a>
+                            <a className="text__content link-effect" href="https://github.com/Hiba243/Voice_Based_Navigation_Hackathon/blob/main/assets/Demo_Video.webm" rel="noreferrer" target="_blank">View Demo &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <hr></hr>
             <div className="project">
                 <img src={EcommerceImg ? EcommerceImg : ''} className='responsive-img home-img-2' alt="Ecommerce main mockup"></img>
                 <div className="project__desc">
