@@ -16,10 +16,10 @@ const Projects = () => {
                     <div className="project__desc-content">
                         <div className="project__desc-content-heading">
                             <p className="text__subheading color-yellow">Voice Based Navigation for Web Applications</p>
-                            <p className="text__content">Development using AWS Cloud Services</p>
+                            <p className="text__content">Web Development using AWS Cloud Services</p>
                         </div>
                         <div>
-                            <p className="text__content">A voice based navigational solution for web applications where users can effortlessly navigate and interact with web forms hands-free. Featuring intelligent code snippets, it scans any web page and automates all the voice based navigation setup. Leverages AWS Lex to deliver an accessible & enhanced user experience for web application navigation.</p>
+                            <p className="text__content">A voice based navigational solution for web applications where users can effortlessly navigate and interact with web forms hands-free. Featuring intelligent code snippets, it scans any web page and automates all the voice based navigation setup. Leverages AWS Lex to deliver an accessible and enhanced user experience for web application navigation.</p>
                         </div>
                         <div>
                             <ul className="ul-style text__content">
